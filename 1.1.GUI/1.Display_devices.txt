@@ -1,0 +1,16 @@
+-> display is 2-d matrix of pixels , also known as frame in terms of GPU 
+-> GPU the ASIC responsible for the frame computation and manipulating the pixels in the screen
+-> GPU has its own memory , also known as frame buffers.
+-> GUI is actually frames which also recomputed very fast that it appears to be interactive.
+-> CPU is slow for this manipulation thats why an ASIC is made that is GPU to compute frames and interact 
+with displays via drivers.
+-> Graphics library are already built which contains genral things like drawing a line , circle etc,
+E.g OPENGL, DIRECTX, VULKAN
+-> GUI Programs gives rise to "asynchronous programs"(or EVENT DRIVEN) , as in GUI things are event based and event can 
+happen anytime i.e not in sequence.
+-> Right now GUI programs are predominant as they make human computer interaction easy.
+-> For developers command line is still dominant.
+
+
+-> In GUI based programs , user is in control of the events.
+-> In CLI based programs , the program is in control of the events.

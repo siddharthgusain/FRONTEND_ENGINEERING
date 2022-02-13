@@ -1,0 +1,68 @@
+A little Recap :-
+1. We have talked about how data is fetched and what are the physical infrastucture
+and protocols that goes behind the scenes of fetching data from server
+
+2. We have looked at a high level overview about how browser interprets html,css,js
+
+3. We have talked about sychronous JS and how Instruction written in JS file is run line 
+by line
+
+4. We have talked about asynchronous JS and a little overview of EVENTS
+
+5. Before going deep into Asynchronous Behaviour , its important to learn behind the scenes
+of a browser process
+
+HOW BROWSER WORKS (BEHIND THE SCENES)?
+
+1. HOW MANY PROCESSES ARE CREATED WHEN WE CLICK THE CHROME SHORTCUT
+2. DETAIL ABOUT THE PROCESSES
+3. HOW MULTIPROCESS ARCHITECTURE WORKS
+4. WHAT ARE THE POWERS PRESENT INSIDE BROWSER THAT CAN BE USED BY JS PROGRAM
+5. CODE INSIDE BROWSER (AN OVERVIEW)
+
+NOTE :- Browsers are usually written in languages like C/C++
+Each part of a Browser is a program which interacts with OS using "system call" to 
+access the hardware.
+
+NOTE ABOUT OS :-
+1. OS has program written to handle various things like:
+    -> Network request
+    -> I/O request(Keyboard , Mouse ,Monitor)
+    -> Managing RAM and HDD
+    -> Managing GPU 
+    -> Interating with Device drivers
+    -> Handling interrupts
+    -> OS is the only software which directly access hardware.
+    -> All other programs uses OS API to access hardware resources.
+    
+2. Browser Process accesses these abilities using "system calls" 
+-> Its an abstraction for developers or high level programmer
+-> As a high level developer we just know which function to use from OS API ,
+   How that function is implemented is hidden from us.
+
+3. ABOUT HTML
+-> HTML is just a Format that we as developer define to tell browser what to render
+-> HTML FILE contains just a bunch of characters which collectively represents some syntax
+-> All the heavy lifting is done by browser
+-> We as a developer just define the syntax of what to do , how to do is figured out 
+   by browser.
+
+4. ABOUT CSS
+-> CSS is also a format where developers define what to do 
+-> To decrease the developement time Browsers are made they are kind of abstraction layer 
+   which do the heavy lifting.
+
+5. ABOUT JS
+-> JS is also a bunch of intruction that we write in a file of what to do , how to do 
+is done by browser using OS support .
+
+-> JS Program interacts with Browser core superpowers like Storage using API,in simple terms
+some bunch of functions defined inside browser code and that can be called inside JS file
+
+-> In the we should not forget that everything is a software and gets converted to Process
+
+-> Interprocess communication is going on btw process.
+
+5. ABOUT BROWSER
+-> OLD browser were single process ARCHITECTURE
+-> Modern Browser have MULTIPROCESS ARCHITECTURE

@@ -1,0 +1,42 @@
+-> callback are functions passed as argument because of callback asynchronous behaviour is possible
+-> lets take a overview with setTimeout API
+
+window.setTimeout(function b() {
+    console.log("I am inside setTimeout")
+},5000);
+
+-> first arguemnt is callback function 
+
+
+function a() {
+    console.log("I am after setTimout")
+}
+
+a(); 
+// we are calling "a()" by passing a callback function as argument
+// callback as the name suggest , these functions can be called back sometime else 
+// this property is very useful for asynchronous behaviour
+
+STEPS:
+1. JS IS PARSED By JS engine AND GLOBAL EXECUTION  CONTEXT IS CREATED INSIDE STACK FRAME
+2. MEMORY IS CREATED FOR "a()" AND CALLBACK IS REGISTERED IN THE MEMORY FOR SETTIMEOUT
+3. "a()" is executed , its stack frame is created AND THEN REMOVED 
+4. JS file ends and GLOBAL EXCUTION CONTEXT IS REMOVED AS WELL
+5. AFTER WHOLE JS FILE ENDS , SETTIMEOUT CALLBACK IS SCHEDULED BY EVENT LOOP 
+TO THE STACK FRAME AND RUN LINE BY LINE. 
+
+There are two types of callbacks
+
+1. synchronous callbacks-> which are called then and there
+/* 
+eg :- function a(callback) {
+    callback();
+}
+
+a(function (){
+    console.log("hello");
+});
+*/
+
+2. asynchrnous callbacks -> They are registered into the memory and scheduled by event loop.
+Usually used with WEB API to asynchrnous task like event handlers, api calls, timer functionaility

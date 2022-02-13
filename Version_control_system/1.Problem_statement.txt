@@ -1,0 +1,6 @@
+-> Whenever we work on a project , we want to go back to previous version of project
+in case we make a bad change, locally we can do it by ctrl+z which is only applicable
+until the program is open 
+
+-> Also in case more than 1 person is contributing to a project there is a need of tracking the changes
+made by various contributors so that changes can be easily revertible.

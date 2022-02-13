@@ -1,0 +1,8 @@
+-> The solution to this problem is a version control system which keeps tracks of your project 
+by keeping screenshots or metadata about your project changes.
+
+-> Some Version control system -> git , cvs etc.
+-> most widely used is Git developed by linux trovalds.
+-> Git Stores BLOBS and creates hash for each commit , it also provides branching and other features.
+-> Git provides CLI which can be accesed using any shell and , can be used to execute commands
+-> There are various GUI based tools which easies our task as well -> Source tree

@@ -1,0 +1,11 @@
+-> HTML stand for hyper text markup langauge
+-> HTML file is just a stream of characters 
+-> The structure of html tags is useful to renderer process to create DOM Data structure into 
+RAM.
+-> The structure of html helps developer to define the layout of page easily , in the end it is 
+parsed by renderer process.
+-> Html provides tags which are stored as Tree node inside RAM by renderer process
+-> Each node has lots of properties which can be cascaded by CSS and each node can be 
+accessed by Javascript using WEB API.
+-> Each browser provides "default styling"[User agent stylesheet] for each tag which is supported by it.
+-> Each tag is a "RECTANGLE"(box-model) which is rendered using OS WebGL library support.
