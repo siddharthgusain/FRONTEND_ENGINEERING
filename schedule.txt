@@ -1,5 +1,3 @@
--> What are events and event handlers in context of signals and interrupts
--> What are default signal handlers and User defined signal/event handlers
 -> Understanding Js as creating user defined handlers for signals/events.
 -> Typed vs dynamic language
 -> Check the developer roadmap.
@@ -11,10 +9,3 @@ Types of environment for a application
 4. Linux for general purpose OS and server OS.
 5. Server from hardware and software point of views
 6. What is SDK?
-
-Well, I guess the entire concept of software engineering rests on the basis on abstractions. 
-Each developer will decide which layers of abstraction are relevant to them. 
-Theoretically, a properly created layer of abstraction with exposed APIs should have its implementation
-details be unimportant to the user. However, in reality knowing implementation details is often times
-important. If a user spends all of their time learning the implementation, they will be less 
-productive in their task. But always avoiding learning implementation results is a poor knowledge base.

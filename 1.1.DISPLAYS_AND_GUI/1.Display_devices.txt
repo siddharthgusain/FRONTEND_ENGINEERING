@@ -14,3 +14,8 @@ happen anytime i.e not in sequence.
 
 -> In GUI based programs , user is in control of the events.
 -> In CLI based programs , the program is in control of the events.
+
+-> ONE GUI APPLICATION IS VERY SIMILAR TO ANOTHER , THATS WHY WE HAVE SOME OBJECT ORIENTED 
+FRAMEWORK TO BUILD GUI BASED PROGRAM. 
+E.G:- TKINTER IN PYTHON , JAVA FRAMEWORKS ETC.
+-> EACH GUI PROGRAM HAS EVENT LOOP.
