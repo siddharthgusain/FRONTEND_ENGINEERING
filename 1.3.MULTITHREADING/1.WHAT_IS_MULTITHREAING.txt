@@ -1,0 +1,3 @@
+-> Multithreading is a way of creating multiple light weight process(LWP) called threads.
+-> THreads can be user level and kernel level.
+-> user level threads are managed by User library and kernel level threads are managed by OS.
