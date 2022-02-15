@@ -35,7 +35,7 @@ NOTE ABOUT OS :-
     -> OS is the only software which directly access hardware.
     -> All other programs uses OS API to access hardware resources.
     
-2. Browser Process accesses these abilities using "system calls" 
+2. Browser Process accesses these resources using "system calls" 
 -> Its an abstraction for developers or high level programmer
 -> As a high level developer we just know which function to use from OS API ,
    How that function is implemented is hidden from us.
@@ -56,7 +56,7 @@ NOTE ABOUT OS :-
 -> JS is also a bunch of intruction that we write in a file of what to do , how to do 
 is done by browser using OS support .
 
--> JS Program interacts with Browser core superpowers like Storage using API,in simple terms
+-> JS Program interacts with Browser core API like Storage using API,in simple terms
 some bunch of functions defined inside browser code and that can be called inside JS file
 
 -> In the we should not forget that everything is a software and gets converted to Process
