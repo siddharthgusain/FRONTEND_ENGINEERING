@@ -7,7 +7,7 @@ and protocols that goes behind the scenes of fetching data from server
 3. We have talked about sychronous JS and how Instruction written in JS file is run line 
 by line
 
-4. We have talked about asynchronous JS and a little overview of EVENTS
+4. We have talked about asynchronous JS and a little overview of EVENT DRIVEN PROGRAMMING.
 
 5. Before going deep into Asynchronous Behaviour , its important to learn behind the scenes
 of a browser process
