@@ -1,0 +1,5 @@
+-> Threading library is an abstraction to developer for managing and creating threads.
+-> Implementation of these libraries are according to POSIX standard given by IEEE.
+-> As a developer we can include these libraries to call the subroutines written inside these
+libraries.
+Example:- In C, <pthread.h> , in C++ -> <thread> 
