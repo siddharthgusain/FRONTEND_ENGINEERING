@@ -1,3 +1,6 @@
 -> Multithreading is a way of creating multiple light weight process(LWP) called threads.
 -> THreads can be user level and kernel level.
 -> user level threads are managed by User library and kernel level threads are managed by OS.
+-> Without multithreading , programs are executed in "serial order", i.e All the instructions
+in the program is executed in the same order as they appear in Program.
+-> Multithreading can give rise to some issues of synchronisation.
