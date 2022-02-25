@@ -8,4 +8,4 @@ parsed by renderer process.
 -> Each node has lots of properties which can be cascaded by CSS and each node can be 
 accessed by Javascript using WEB API.
 -> Each browser provides "default styling"[User agent stylesheet] for each tag which is supported by it.
--> Each tag is a "RECTANGLE"(box-model) which is rendered using OS WebGL library support.
+-> Each tag is a "RECTANGLE"(box-model) which is rendered using OS and WebGL library support.
