@@ -19,3 +19,12 @@ of algorithms for their transformation.
 -> Often, both raster and vector elements will be combined in one image; 
 for example, in the case of a billboard with text (vector) and photographs (raster).
 Example of vector file types are "EPS, PDF, and AI."
+
+NOTE:- Raster files are particularly good for portraying color depth, as each pixel can be a different color. 
+And there are more pixels that can be unique colors than vectors that can be unique colors. 
+This makes raster file formats good for editing digital photographs.
+
+-> The main difference between a vector image and a raster image is the way it is built.
+A vector image is made up of 2D points that are connected by straight lines or curves, 
+so the resulting image tends to be a strong geometric shape like a square, rectangle, 
+pentagon, oval or triangle, or some mix of all of them.
