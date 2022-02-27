@@ -1,7 +1,7 @@
 -> Render blocking means anything that blocks the "main thread" of Renderer process from
 painting onto the screen.
 -> The reason we "defer script" loading is that javascript compilation is done on main thread 
-of the renderer process by the "JS ENGINE"(JUST A PIECE OF CODE) SO, javascript execution can blocking
+of the renderer process by the "JS ENGINE"(JUST A PIECE OF CODE) SO, javascript execution can block
 the "rendering pipeline" that we have studied in previously.
 -> This will also affect FCP,LCP etc that are web vitals for SEO.
 -> Also if javascript starts executing before the DOM is created in the memory,there is a possibility

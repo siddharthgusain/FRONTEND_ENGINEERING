@@ -1,5 +1,5 @@
 -> Manipulating display pixels is considered as graphics
--> it could an image video , any animation etc.
+-> It could an image video , any animation etc.
 -> GPU is a application specific integrated circuit (ASIC) designed to handle these pixel manipulation
 really fast.
 -> CPU was not designed to do so.
