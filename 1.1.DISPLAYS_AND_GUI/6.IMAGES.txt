@@ -12,6 +12,7 @@ such as mathematical functions or three-dimensional geometric models;
 the latter being a major sub-area of computer graphics. The field of digital image processing is the study 
 of algorithms for their transformation.
 -> RASTER IMAGES FILE FORMATS :- JPG,PNG,BMP,GIF.
+NOTE:- ALL these are "compressed" format
 
 2. VECTOR IMAGE
 ->Vector images resulted from mathematical geometry (vector). 

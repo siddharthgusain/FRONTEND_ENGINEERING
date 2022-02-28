@@ -4,8 +4,8 @@
 really fast.
 -> CPU was not designed to do so.
 -> Rise of GUI programming ,gaming , and displays gives rise to GPU.
--> Just like to acess CPU we take help of an abstaction i.e OS and to acess GPU and sending it instructions,
-we have an abstraction layer of graphics libraries like :-
+-> Just like to acess CPU we take help of an abstaction i.e OS and to acess GPU and sending it 
+instructions,we have an abstraction layer of graphics libraries like :-
 1. OPENGL
 2. VULKAN
 3. DIRECT3D(DIRECTX)(WINDOWS)
