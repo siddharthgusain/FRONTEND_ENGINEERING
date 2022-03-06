@@ -1,7 +1,7 @@
-->Any thing related to engineering is a build with the concept of abstraction.
-->E.g :- Mobiles to user is an abstraction as they do not need to know how under the hood
+-> Any thing related to engineering is a build with the concept of abstraction.
+-> E.g :- Mobiles to user is an abstraction as they do not need to know how under the hood
 it is working , they just know how to give input like from keyboard and gets output on screen,
-how screen is working it is "abstracted: from user.
-->As a developer it good to know how things work under the hood, but still learn things in absstraction as well
+how screen is working it is "abstracted" from user.
+-> As a developer it good to know how things work under the hood, but still learn things in abstraction as well
 -> OS has created an abstraction for developers as well , we only need to know about system calls,
 how OS does the work is abstracted inside the OS code.

@@ -18,8 +18,6 @@ that is, a datagram sent by a higher level protocol to a network 127 address
 should loop back inside the host. No datagram sent to a network 127 address 
 should ever appear on any network anywhere.
 
-Source: Network Numbers
-
 If it is Whole Class A, What is the Point of Other Arbitrary Values for the Last Three Octets?
 
 The purpose of the loopback range is testing of the TCP/IP protocol implementation on a host.
