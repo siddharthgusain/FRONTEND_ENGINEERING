@@ -1,4 +1,4 @@
--> Display can be stored as 2-D matrix of pixels , also known as frame in terms of GPU 
+-> Display frame can be stored as 2-D matrix of pixels , also known as frame in terms of GPU 
 -> GPU the "ASIC" responsible for the frame computation and manipulating the pixels in the screen.
 -> GPU has its own memory(VRAM) , also known as frame buffers.
 -> GUI is actually frames which also recomputed very fast that it appears to be interactive.
