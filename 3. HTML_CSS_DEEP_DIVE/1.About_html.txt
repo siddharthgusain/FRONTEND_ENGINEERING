@@ -1,4 +1,4 @@
--> HTML stand for hyper text markup langauge
+-> HTML stand for Hyper Text Markup Langauge
 -> HTML file is just a stream of characters 
 -> The structure of html tags is useful to renderer process to create DOM Data structure into 
 RAM.
