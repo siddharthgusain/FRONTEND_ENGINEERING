@@ -1,4 +1,3 @@
--> Understanding Js as creating user defined handlers for signals/events.
 -> Check the developer roadmap.
 
 Types of environment for a application
