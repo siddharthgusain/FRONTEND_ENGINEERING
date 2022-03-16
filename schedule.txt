@@ -1,8 +1,0 @@
--> Check the developer roadmap.
-
-Types of environment for a application
-2. What is server(An application specific chip with some os installed)
-3. How server OS are different from General purpose OS
-4. Linux for general purpose OS and server OS.
-5. Server from hardware and software point of views
-6. What is SDK?
