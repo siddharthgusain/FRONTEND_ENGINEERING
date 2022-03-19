@@ -3,7 +3,7 @@ About PORTS :-
 -> Ports are assigned to process for uniques identification which is helpful for IPC. 
 -> Applications like normal text editor dont need port number 
 -> A port number specifies the process to which incoming data or
- messages arriving on a given network interface should be routed.
+ messages arriving on a given "network interface" should be routed.
 -> Some ports are well defined ports like 80,443 etc;
 -> Each process has PID which is a unique identification number which is stored by 
 OS in some data structure like linked list to store Process control block(PCB).
