@@ -21,7 +21,7 @@ NOTE:- ALL these are "compressed" format
 for example, in the case of a billboard with text (vector) and photographs (raster).
 Example of vector file types are "EPS, PDF, and AI."
 -> NOTE:- With point , line and curve , any 2d or 3-d shape can be build by combining .
-e.g rectangle , square , circle , cube etc.
+e.g triangle,rectangle , square , circle , cube etc.
 
 NOTE:- Raster files are particularly good for portraying color depth, as each pixel can be a different color. 
 And there are more pixels that can be unique colors than vectors that can be unique colors. 
