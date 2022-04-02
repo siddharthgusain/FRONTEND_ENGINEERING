@@ -12,7 +12,8 @@ CONCURRENCY VS PARALLELISM
 It doesn't necessarily mean they'll ever both be running at the same instant. 
 For example, multitasking on a single-core machine.
 
-->PARALLELISM is when tasks literally run at the same time, e.g., on a multicore processor.
+-> PARALLELISM is when tasks literally run at the same time, e.g., on a multicore processor.
+-> PARALLELISM is subset of CONCURRENCY
 
 Note:- Even is multithreading , context switching happens so fast that it appears as parrallel
 execution, anything that happens in "less than 300ms" is appeared to us as parrallel execution 
