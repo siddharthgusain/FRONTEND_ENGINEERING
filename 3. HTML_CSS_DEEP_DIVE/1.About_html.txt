@@ -9,3 +9,10 @@ parsed by renderer process.
 accessed by Javascript using WEB API.
 -> Each browser provides "default styling"[User agent stylesheet] for each tag which is supported by it.
 -> Each tag is a "RECTANGLE"(box-model) which is rendered using OS and OPENGL library support.
+
+NOTE:- HTML is like a "declarative" syntax where wwe declare what UI we want,what widget we want 
+and what position on the screeen , how that UI is drawn onto the screen is abstracted from 
+developer by the OS, GPU and the whole graphics pipeline components.
+
+-> In Android we have "XML" that declares the UI we want ,How it is drawn and compiled is
+taken care by Android OS and GPU
