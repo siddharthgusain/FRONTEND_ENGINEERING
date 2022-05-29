@@ -1,0 +1,39 @@
+WHY WEB IS CONSIDERED AS UNIVERSAL AND MORE REACHABLE PLATFORM?
+
+1. Developing Web application is platform independent across devices and operating systems.
+2. Web application is on demand , that is accessed through browser on demand , so is always updated 
+3. Dependency on operating system and underlying hardware architecture for web application developers
+is very less.
+4. Web application is more reachable and can be accessed on any hardware like x86 , arm with single
+code base.
+5. Introduction of Web Assembly , PWA makes web even more powerfull
+6. Any product which wants to reach more users will be made as an Web application.
+
+-> Underlying architecture of web makes it independent of hardware and OS.
+
+QUES:- Why are different versions of software required for different operating systems 
+(macOS, Windows, iOS, Android)? Shouldn’t this depend on the CPU chip instead?
+
+ANS:- An small example would be Chrome application.
+-> Chrome for android , chrome for iOS
+-> Chrome for window , linux and macOS
+
+Chrome Application is build for different operating system but why ?
+1. First dependency is system calls, each application made use of lots of system calls which is 
+different for differnt kernels .
+2. Second lets talk about Chip architecture (RISC and CISC). Mobile devices Uses ARM(RISC) architecture
+Desktop devices have CHips with x86(CISC) architecture. 
+3. Each operating system is made for differnt architecture.
+4. Any application running directly on top of operating system is platform dependent.So seperate
+code will be written for different operating system.
+
+-> WEB Application on the other hand runs on top of browser , browser are platform dependent but
+web application is not platform dependent, its more of browser dependent.
+-> Majority of browsers introduce features together so the support is almost same in major browsers
+like mozilla, chrome , safari , opera etc , they make features according to W3C standards.
+
+-> The Underlying infrastructure either hardware and software makes the web more independent and 
+reachable.
+
+
+
