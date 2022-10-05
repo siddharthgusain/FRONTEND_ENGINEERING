@@ -2,7 +2,7 @@
 -> developer tools
 -> Graphics Pipeline working
 -> lucid chart complete (complete generic Frontend Pipeline)
-
+https://github.com/alex/what-happens-when
 https://www.youtube.com/watch?v=dh406O2v_1c --> Hussein nassir
 https://www.youtube.com/watch?v=rVb0pfGFZFw --> prashant palikhe
 https://www.quora.com/How-exactly-does-WebAssembly-work-under-the-hood-Is-it-getting-run-just-like-Assembly-is-directly-on-the-machine-as-machine-code-or-is-it-still-being-interpreted-somewhere-in-the-stack
