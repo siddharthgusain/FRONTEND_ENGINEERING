@@ -22,15 +22,15 @@ Chrome Application is build for different operating system but why ?
 1. First dependency is system calls, each application made use of lots of system calls which is 
 different for differnt kernels .
 2. Second lets talk about Chip architecture (RISC and CISC). Mobile devices Uses ARM(RISC) architecture
-Desktop devices have CHips with x86(CISC) architecture. 
-3. Each operating system is made for differnt architecture.
+Desktop devices have Chips with x86(CISC) architecture. 
+3. Each operating system is made for different architecture.
 4. Any application running directly on top of operating system is platform dependent.So seperate
 code will be written for different operating system.
 
 -> WEB Application on the other hand runs on top of browser , browser are platform dependent but
 web application is not platform dependent, its more of browser dependent.
 -> Majority of browsers introduce features together so the support is almost same in major browsers
-like mozilla, chrome , safari , opera etc , they make features according to W3C standards.
+like mozilla, chrome , safari , opera etc , they make features according to "W3C standards".
 
 -> The Underlying infrastructure either hardware and software makes the web more independent and 
 reachable.
