@@ -1,0 +1,3 @@
+-> In case of HTTP protocol , resource is fetched by Browser 
+-> After that Browser do html , css , js parsing and painting.
+-> We will discuss browser internals in next sections.
