@@ -1,0 +1,11 @@
+-> In this we will discuss in details steps that is taken by application layer(Browser)
+when a user type something into its Omnibox(Input bar).
+
+1. Adding input to Omnibox(input bar)
+2. Checking whether the input is query or an actual URL.
+3. DNS lookup
+4. TCP connection phases + Error handling
+5. Request Send
+6. Routing Infrastructure 
+7. Server abstraction
+8. Getting response and Browser rendering pipeline.
