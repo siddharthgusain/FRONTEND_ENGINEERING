@@ -1,0 +1,10 @@
+-> Each packet passes through various network devices , routers , gateways and
+finally reaches destination machine 
+
+-> Segmentation , fragmentation , Is being done at OSI layers respectively.
+
+-> Server machine has its own hardware(RAM,NIC,CPU,HDD) and operating system,
+
+-> Server can have an application process running to handle request (Backend engineering)
+
+-> We will keep server machine abstract for now , will focus more on client side(Browsers).
