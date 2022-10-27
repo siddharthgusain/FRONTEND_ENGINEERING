@@ -5,3 +5,5 @@
 
 -> After getting HTTP response Browser do html , css , js parsing and painting.
 -> We will discuss browser internals in next sections.
+
+-> There is one other application layer protocol Websocket(WS)/Websocket secure(WSS) used for bi-directional communication
