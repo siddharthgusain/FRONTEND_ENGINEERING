@@ -1,3 +1,7 @@
 -> In case of HTTP protocol , resource is fetched by Browser 
--> After that Browser do html , css , js parsing and painting.
+-> Note , we have talked about http in web , there are other pplication layer protocols(FTP,SMTP,POP).
+-> We are talking about browser perspective which msotly uses HTTP protocol.
+-> FTP is used in clint softwares like Filezilla, SMTP and POP is used by client software like Thunderbird, Outlook desktop client
+
+-> After getting HTTP response Browser do html , css , js parsing and painting.
 -> We will discuss browser internals in next sections.
