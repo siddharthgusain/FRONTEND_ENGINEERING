@@ -1,0 +1,16 @@
+#container{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    font-size: 2em;
+    text-align: center;
+}
