@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Linking CSS</title>
+        <style type="text/css">
+            #first{
+                box-sizing: content-box;
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                margin: 5px;
+                border: 5px solid black;
+            }
+
+            #second{
+                box-sizing: border-box;
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                margin: 5px;
+                border: 5px solid black;
+            }
+
+            #third{
+                box-sizing: padding-box;
+                width: 100px;
+                height: 100px;
+                padding: 5px;
+                margin: 5px;
+                border: 5px solid black;
+            }
+        </style>
+        <link rel="stylesheet" href="./18.External_sheet.css">
+    </head>
+    <body>
+        <div id="first">
+            CONTENT BOX
+        </div>
+        <div id="second">
+            BORDER BOX
+        </div>
+        <div id="third">
+            PADDING BOX
+        </div>
+    </body>
+</html>
