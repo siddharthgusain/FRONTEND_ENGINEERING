@@ -5,4 +5,13 @@
 3. Managing state of application(Data + Storage and passing data)
 4. Navigation and Routing 
 
+-> As a developer we only declare the UI using html or xml or any other markup langauge , how it is painted into pixels is 
+taken care by browser and operating system.
 
+-> We only define callbacks and attack it to UI nodes , but these callbacks are called by browser or operating system in
+response to events and interrupts.
+
+-> We as a developer decides how to pass and store data(Cookies,IndexDB,Localstorage etc) , how it is stored is done by browser
+and operating system.
+
+-> Developer job is more on the declarative side and how to architecure the source code for scalability and maintainability.
