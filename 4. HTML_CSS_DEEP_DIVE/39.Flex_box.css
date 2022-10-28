@@ -1,0 +1,18 @@
+#container{
+    display: flex;
+    height: 500px;
+    background-color: blue;
+    padding: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    align-self: center;
+    background-color: azure;
+    text-align: center;
+    font-size: 2em;
+}
