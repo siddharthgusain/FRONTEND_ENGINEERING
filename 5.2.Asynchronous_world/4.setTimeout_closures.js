@@ -12,7 +12,7 @@ function a() {
 
 function b() {
 
-    // let is block scope , so i is diffrent varaible at each loop iteration
+    // let is block scope , so i is different variable at each loop iteration
     for(let i = 0 ; i < 5 ; i++){
         window.setTimeout(function() {
             console.log("b " + i);
