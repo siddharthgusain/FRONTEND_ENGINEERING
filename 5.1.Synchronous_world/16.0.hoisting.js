@@ -1,4 +1,5 @@
 a(); // a is present in memory during memory creation phase
+arrow_function(); // Here arrow function behaves just like another variable so , error will popup "arrow_function is not a function"
 console.log(b); // b is present in memory with undefined
 
 var b = 7;
@@ -8,6 +9,10 @@ function a(){
     console.log("hello");
     console.log(this);
     console.log(window);
+}
+
+var arrow_function = ()=>{
+    console.log("arrow_function");
 }
 
 a();
