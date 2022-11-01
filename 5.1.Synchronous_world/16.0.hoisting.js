@@ -1,5 +1,5 @@
-a();
-console.log(b);
+a(); // a is present in memory during memory creation phase
+console.log(b); // b is present in memory with undefined
 
 var b = 7;
 function a(){
@@ -13,3 +13,4 @@ function a(){
 a();
 
 console.log(b);
+console.log(a);

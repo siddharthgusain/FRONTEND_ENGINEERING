@@ -1,0 +1,5 @@
+1. Undefined is a special keyword which is given to variables which are present in memory but has not
+been overwritten by the code.(Undefined is like default value for variables set by browser).
+
+2. Not defined means that identifier (either varaible or function) is not allocated memory space 
+or is not present in memory.
