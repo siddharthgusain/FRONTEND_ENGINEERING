@@ -29,8 +29,10 @@ name_func(); // perfectly fine
 
 /* -> A programming language is said to have First-class functions when functions 
 in that language are treated like any other variable. 
+
 For example, in such a language, a function can be passed as an argument to other functions, 
 can be returned by another function and can be assigned as a value to a variable.
+
 -> WE CAN PASS FUNCTION AS ARGUEMENT , CAN BE RETURNED AS WELL
 -> NOTE: In programming languages C/C++ we can pass pointer to a function
     as a arguement and also return it.
