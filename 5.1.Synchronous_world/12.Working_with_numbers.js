@@ -21,7 +21,7 @@ console.log(window.Math.pow(num1,3)); // Math object usage
 console.log('3' == 3); // true
 console.log('3' === 3); // false
 console.log(true == true); // true
-console.log(true === true); // false
+console.log(true === true); // true
 
 console.log(1 == true); // true
 console.log(1 === true); //false
