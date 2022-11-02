@@ -1,0 +1,6 @@
+1. Memory wastage
+2. Variables are not garbage collected 
+3. If not handled coreectly it can lead to memory leak
+
+-> So Javascript can be usefull for developers as it saves time to write code , but we have limited 
+control over memory as garabage collector code is already written inside JS engine 

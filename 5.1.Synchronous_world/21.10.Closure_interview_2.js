@@ -15,3 +15,4 @@ counter2() // 1
 counter2() // 2
 
 // counter 1 and counter2 has fresh copies of increamentCounter and closure of count
+// Good example for data hiding with closure
