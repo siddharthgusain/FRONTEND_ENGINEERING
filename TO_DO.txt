@@ -1,8 +1,3 @@
--> single file project , multifile project ,build tools 
--> developer tools
--> lucid chart complete (complete generic Frontend Pipeline)
-https://www.quora.com/How-exactly-does-WebAssembly-work-under-the-hood-Is-it-getting-run-just-like-Assembly-is-directly-on-the-machine-as-machine-code-or-is-it-still-being-interpreted-somewhere-in-the-stack
-https://techgenix.com/Server-Hardware-Explained-Part1/
 1. USING CALLBACK WITH SOME STANDARD API(DOM ,  SETTIMEOUT , NETWORK API)
 2. EXPLORING VARIOUS WEB API AND SMALL PROJECTS
 3. WHAT IS NPM -> NPM SCRIPTS -> MUTIFILE STRUCTURE -> BUNDLING(WEBPACK) -> BABEL -> ESLINT -> POSTCSS
@@ -10,3 +5,6 @@ https://techgenix.com/Server-Hardware-Explained-Part1/
 5. FULL STACK APP(IDEA) + microfrontend
 6. OPEN SOURCE(FOSSASIA)[BACKEND PROJECTS]
 7. Testing
+
+https://www.quora.com/How-exactly-does-WebAssembly-work-under-the-hood-Is-it-getting-run-just-like-Assembly-is-directly-on-the-machine-as-machine-code-or-is-it-still-being-interpreted-somewhere-in-the-stack
+https://techgenix.com/Server-Hardware-Explained-Part1/
