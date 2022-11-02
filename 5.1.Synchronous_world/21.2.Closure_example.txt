@@ -1,0 +1,6 @@
+Use cases of Closure:-
+1. Currying
+2. Module design pattern
+3. Iterators
+4. Memoize
+5. Maintain state in "asynchronous javascript"
