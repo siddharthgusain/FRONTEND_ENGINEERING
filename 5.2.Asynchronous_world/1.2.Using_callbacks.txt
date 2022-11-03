@@ -39,4 +39,4 @@ a(function (){
 */
 
 2. asynchrnous callbacks -> They are registered into the memory and scheduled by event loop.
-Usually used with WEB API to asynchrnous task like event handlers, api calls, timer functionaility
+Usually used with WEB API to asynchronous task like event handlers, api calls, timer functionaility
