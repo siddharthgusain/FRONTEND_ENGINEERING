@@ -1,0 +1,16 @@
+-> JS Engine is a code that is part of renderer process that we studied earlier
+-> JS engine are many like spidermonkey in firefox, V8 in chrome etc.
+-> V8 is considered fastest among them
+
+-> JS Engine + API provided by the environment is what is needed to run JS code in a machine.
+-> In browsers JS ENGINE + Browser API are available through global object "window" , in case of NODEJS , JS ENGINE + various 
+server related C++ API are available in NODEJS environment. 
+
+
+JS compilation has 3 major step :-
+1. Parsing 
+2. Compilation 
+3. Execution
+
+-> Current JS engine does JIT compilation rather than pure interpretation or pure compilation.
+-> It also has Garbage collector that uses mark and sweep algorithm.
