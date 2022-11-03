@@ -38,5 +38,5 @@ a(function (){
 });
 */
 
-2. asynchrnous callbacks -> They are registered into the memory and scheduled by event loop.
+2. asynchronous callbacks -> They are registered into the memory and scheduled by event loop.
 Usually used with WEB API to asynchronous task like event handlers, api calls, timer functionaility
