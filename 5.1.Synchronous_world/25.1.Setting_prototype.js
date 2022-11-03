@@ -10,13 +10,13 @@ sid.greet();
 
 // using constructor
 
-const personPrototype1 = {
+const personPrototype1 = { // generally object are used to defined member functions/methods
     greet() {
         console.log(`hello ${this.name}`);
     },
 };
 
-function Person(nameParam) {
+function Person(nameParam) { // generally functions are used to initilize data members
     this.name = nameParam;
 }
 
