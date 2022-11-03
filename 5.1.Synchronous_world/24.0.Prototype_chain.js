@@ -17,7 +17,7 @@
 var num = 10; // it is a number 
 // num => Number.prototype => Object.prototype => null
 // num.__proto__ == Number.prototype
-// [[prototype]] in console is equivalent to __proto__ property
+// "[[prototype]]"" in console is equivalent to "__proto__" property
 //( only those properties present inside Number.prototype are inherited 
 // and can be used by any number)
 
