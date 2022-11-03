@@ -1,0 +1,12 @@
+1. Event Loop:- its a programm containing infinite loop 
+It has two jobs:-
+1. Check the status of call stack , if empty then schedule the callbacks present in queue
+2. Check status of microtask queue and callback queue.
+
+2. Queue Are of two types:-
+-> Callback queue/Task Queue:- Queue containing callbacks like settimeout , dom related , storage related etc.
+-> Microtask Queue :- Queue containing Promise based callbacks , and Mutation observer based API
+
+NOTE:- Microtask Queue has higher priority than callback queue 
+So, all callbacks in microstak queue are scheduled first.
+
