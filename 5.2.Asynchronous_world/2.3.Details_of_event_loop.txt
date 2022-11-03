@@ -10,3 +10,7 @@ It has two jobs:-
 NOTE:- Microtask Queue has higher priority than callback queue 
 So, all callbacks in microstak queue are scheduled first.
 
+-> So Blocking this call stack with shitty code or slow code leads to blocking main thread of renderer
+process as this JS engine is running in main thread, Thus JANK appears on screen.
+
+-> Its important to write callbacks carefully and add event listerners carefully.
