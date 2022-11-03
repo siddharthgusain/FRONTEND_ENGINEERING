@@ -1,0 +1,12 @@
+var num = 10; // this is a variable/object 
+
+-> "num" is object in javascript 
+-> It should inherit from browser inbuilt object "Number"
+
+-> It will be able to inherit only those properties that are definded in "Number.prototype".
+-> "prototype" property of object is very usefull in creating polyfills which we will see in further sections.
+
+-> Number object has lots of other properties like "Number.EPSILON" and "Number.isNAN" but these are not part of
+"num" object that means they are not inherited.
+
+-> Its very important to understand what is inherited and what is not.
