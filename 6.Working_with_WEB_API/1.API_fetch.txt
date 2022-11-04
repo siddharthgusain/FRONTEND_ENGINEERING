@@ -1,1 +1,2 @@
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules

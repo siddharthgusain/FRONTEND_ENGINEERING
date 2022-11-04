@@ -1,0 +1,33 @@
+-> Lets consider a case of Eccomerce website
+
+const cart = ["shoes","pants","kurta"];
+
+// create order -> process payment -> show summary -> update wallet
+
+// psuedocode
+api.createOrder(cart,function (){
+    api.proceedToPayment(function(){
+        api.showOrderSummary(
+            funtion (){
+                api.updateWallet();
+            }
+        )
+    })
+})
+
+// In real enterprise softwares we have thousand of API , managing them like this is really messy
+// It is also known as callback hell when apis are dependent on each other.
+// It is hard to manage and scale
+// This structure is known as pyramid of DOME
+
+// Lets talk about Inversion of control 
+-> Loosing the control over code when using callbacks
+api.createOrder(cart,function (){
+    api.proceedToPayment() // this callback is given to createOrder       
+})
+
+// Now we have given responsibility of calling payment api to createOrder
+// So we are giving control of our code to other code.
+
+
+
