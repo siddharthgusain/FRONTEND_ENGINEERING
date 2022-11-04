@@ -1,5 +1,3 @@
 1. https://www.youtube.com/watch?v=8aGhZQkoFbQ --> Event Loop best Video
 2. https://www.youtube.com/watch?v=DqMFX91ToLw --> Best JS Talk
 3. https://medium.com/@zlatkov --> Best JS articles
-4. https://medium.com/dailyjs/a-promise-of-asynchronous-javascript-2d09b9be7019 --> Promises
-5. https://dev.to/koladev/a-simple-guide-to-asynchronous-javascript-callbacks-promises-async-await-4m03 --> Promises
