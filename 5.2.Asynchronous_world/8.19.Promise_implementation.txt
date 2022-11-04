@@ -1,0 +1,2 @@
+-> Till now we have been using promises with inbuilt web API
+-> In next section we will build our own promise based functions/API
