@@ -1,0 +1,7 @@
+-> In large scale js application , we can't write all the code in one js file and 
+just attack the script to html 
+
+-> The whole application is divided into small js files/modules and modularize the application
+into maintainable peaces.
+
+-> JS modules is a way to do that
