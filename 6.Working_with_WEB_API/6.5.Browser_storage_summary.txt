@@ -1,0 +1,6 @@
+1. Cookies :- small data present in key value pair
+2. Web storage :-
+-> Local storage 
+-> Sessions storage
+3. IndexedDB:- Complex "NOSQL" database in browser
+4. Cache API:-"Generally" used along with service worker
