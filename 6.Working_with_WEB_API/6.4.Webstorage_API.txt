@@ -1,0 +1,10 @@
+-> Web storage API have two types of storages:-
+1. Localstorage :- Data is stored by browser in harddisk so it remains even if we close chrome or
+close the current tab, so can be deleted explicitly once stored
+
+2. Session storage:- Data is stored in RAM i.e current process memory of renderer process , so
+closing the current tab or browser removes the DATA in RAM , hence session storage doesn't 
+perisist permanently
+
+Note:- both stores data in key value pair
+Two methods are used setItem and getItem 
