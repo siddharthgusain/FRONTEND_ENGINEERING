@@ -1,0 +1,9 @@
+-> We can import another js file inside another 
+-> importing leads browser to request the js file/module from the server.
+-> Importing leads to http get request.
+-> Generally we don't ship this type code to browser , generally at development we write code
+in seperate modules i.e at source code level but before shipping we use some kind of 
+module bundler to bundle the files into single Js file that can be shipped
+
+-> Note:- We can still ship js application without module bundler but it has some disadvantages
+one is we have seen i.e "testing in local environment"
