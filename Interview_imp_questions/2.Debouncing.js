@@ -27,7 +27,10 @@ const debounce = delayedFunction(getData, 300);
 
 inputObject.addEventListener("input", debounce);
 
-/* 
-getData is not called on every keystroke , it is only called if the delay with 
+/*
+getData is not called on every keystroke , it is only called if the delay with
 two keystrokes is more than 300ms
 */
+
+
+// can be used for scroll events,infinite scrolling , and window resize
