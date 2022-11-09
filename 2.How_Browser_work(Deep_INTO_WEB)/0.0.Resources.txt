@@ -1,5 +1,4 @@
-1. https://www.youtube.com/playlist?list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx
+1. https://www.youtube.com/playlist?list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx --> Chrome university 
 2. https://developers.google.com/web/updates/2018/09/inside-browser-part1
 3. https://www.youtube.com/watch?v=rVb0pfGFZFw --> prashant palikhe
-4. https://browser.engineering/
-5. https://chromium.googlesource.com/chromium/blink/+/refs/heads/main/Source/core/xmlhttprequest/XMLHttpRequest.cpp
+4. https://browser.engineering/ --> Write small browser
