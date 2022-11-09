@@ -1,16 +1,6 @@
 A little Recap :-
-1. We have talked about how data is fetched and what are the physical infrastucture
+-> We have talked about how data is fetched and what are the physical infrastucture
 and protocols that goes behind the scenes of fetching data from server
-
-2. We have looked at a high level overview about how browser interprets html,css,js
-
-3. We have talked about sychronous JS and how Instruction written in JS file is run line 
-by line
-
-4. We have talked about asynchronous JS and a little overview of EVENT DRIVEN PROGRAMMING.
-
-5. Before going deep into Asynchronous Behaviour , its important to learn behind the scenes
-of a browser process
 
 HOW BROWSER WORKS (BEHIND THE SCENES)?
 
