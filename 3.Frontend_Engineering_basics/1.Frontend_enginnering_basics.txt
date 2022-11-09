@@ -17,6 +17,6 @@ and operating system.
 -> Developer job is more on the declarative side and how to architecure the source code for scalability and maintainability.
 
 -> Frontend is the product a user interacts with so the focus should be high on UI and UX along with performance of application.
--> Frontend application is what user sees i.e data consumed shown in displays and user interacts with the application by 
+-> Frontend application is what user sees i.e data consumed from API shown in displays and user interacts with the application by 
 sending events that is handled by application with event handlers/callbacks.
 
