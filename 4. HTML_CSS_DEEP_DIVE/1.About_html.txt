@@ -1,5 +1,5 @@
 -> HTML stand for "Hyper Text Markup Langae"
--> HTML file is just a stream of characters.ug
+-> HTML file is just a stream of characters
 -> The structure of html tags is useful to "RENDERER PROCESS" to create DOM Data structure into 
 RAM.
 -> The structure of html helps developer to define the layout of page easily , in the end it is 
