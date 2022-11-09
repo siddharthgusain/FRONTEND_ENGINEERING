@@ -1,8 +1,5 @@
-3. WHAT IS NPM -> NPM SCRIPTS -> MUTIFILE STRUCTURE -> BUNDLING(WEBPACK) -> BABEL -> ESLINT -> POSTCSS
-4. SMALL PROJECT ON VANILLA JS
-5. FULL STACK APP(IDEA) + microfrontend
-6. OPEN SOURCE(FOSSASIA)[BACKEND PROJECTS]
-7. Testing
-
-https://www.quora.com/How-exactly-does-WebAssembly-work-under-the-hood-Is-it-getting-run-just-like-Assembly-is-directly-on-the-machine-as-machine-code-or-is-it-still-being-interpreted-somewhere-in-the-stack
-https://techgenix.com/Server-Hardware-Explained-Part1/
+1. WHAT IS NPM -> NPM SCRIPTS -> MUTIFILE STRUCTURE -> BUNDLING(WEBPACK) -> BABEL -> ESLINT -> POSTCSS
+2. SMALL PROJECT ON VANILLA JS
+3. FULL STACK APP(IDEA) + microfrontend
+4. OPEN SOURCE(FOSSASIA)[BACKEND PROJECTS]
+5. Testing
