@@ -4,15 +4,15 @@ console.log(b); // b is present in memory with undefined
 
 var b = 7;
 
-function a(){
-    var insideGetName ;
+function a() {
+    var insideGetName;
     console.log(insideGetName);
     console.log("hello");
     console.log(this);
     console.log(window);
 }
 
-var arrow_function = ()=>{
+var arrow_function = () => {
     console.log("arrow_function");
 }
 
