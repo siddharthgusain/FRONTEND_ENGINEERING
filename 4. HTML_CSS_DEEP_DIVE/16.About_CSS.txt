@@ -2,6 +2,6 @@
 -> Why cascade name is given cuz is cacades/overwrites the default styling supplied by each browser
 -> Css file is also parsed by renderer process (Blink) inside the main thread , that is Why
 css is also render blocking resource.
--> Css parser is the code written inside Blink to parse css and apply to DOM nodes
+-> Css parser is the code written(CSS parser) inside Blink to parse css and apply to DOM nodes
 -> Each node is a C++ object in Memory having giant object of key value pairs of css properties
 that we overwrite.

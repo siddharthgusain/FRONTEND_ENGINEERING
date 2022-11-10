@@ -1,2 +1,2 @@
--> https://roadmap.sh/roadmaps --> ROadmaps for various Technology
+-> https://roadmap.sh/roadmaps --> Roadmaps for various Technology
 -> https://khalilstemmler.com/ --> Design and architecturing web application
