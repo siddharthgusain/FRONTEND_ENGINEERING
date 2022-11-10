@@ -20,6 +20,10 @@ the HTML document loaded in the current tab, or the entire browser window.
 */
 
 const h1 = window.document.querySelector('h1');
+/*  
+Note:- DOM API is synchronous and there are no callbacks , JS engine moves to next line 
+after executing this current line above.
+*/
 
 h1.onclick = function () {
     console.log("hello");
