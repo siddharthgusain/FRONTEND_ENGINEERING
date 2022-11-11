@@ -50,6 +50,7 @@ const sid = createPerson("sid");
 sid.introduceSelf();
 
 // object creation better way with constructor
+// "this" will point to "sid" object
 
 function Person(nameParam) {
     this.name = nameParam;

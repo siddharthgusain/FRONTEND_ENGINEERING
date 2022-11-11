@@ -8,5 +8,5 @@ function attachEventListner() {
 
 attachEventListner();
 
-// Its very important to remove event listner carefully as they take a lot of space in memoyr due to closure
+// Its very important to remove event listner carefully as they take a lot of space in memory due to closure
 // In react its highly important as the closure can take a lot of space
