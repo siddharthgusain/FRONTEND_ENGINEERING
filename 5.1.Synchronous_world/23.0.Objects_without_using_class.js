@@ -38,7 +38,7 @@ function createPerson(nameParam) {
     const obj = {};
     obj.name = nameParam;
     obj.introduceSelf = function () {
-
+        console.log(this);
         console.log(`Hi i am ${this.name}`);
     }
 
@@ -52,7 +52,10 @@ sid.introduceSelf();
 // object creation better way with constructor
 // "this" will point to "sid" object
 
+
+// Creating object with "new" operator
 function Person(nameParam) {
+    console.log(this);
     this.name = nameParam;
     this.introduceSelf = function () {
         console.log(`Hi i am ${this.name}`);

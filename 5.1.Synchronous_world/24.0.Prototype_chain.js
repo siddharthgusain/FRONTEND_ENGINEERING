@@ -1,16 +1,22 @@
-// Prototypes are the mechanism by which JavaScript objects inherit features from one another
-// it is different from other languages inheritance
+/*
+Prototypes are the mechanism by which JavaScript objects inherit features from one another
+it is different from other languages inheritance
+*/
 
-//*** Note *** : prototype property of a class like Number is another object
-// where we define those property which can be inherited
-// only those properties of "Number" is inherited which are defined inside "Number.prototype" object
+/* 
+** Note *** : prototype property of a class like Number is another object
+where we define those property which can be inherited
+only those properties of "Number" is inherited which are defined inside "Number.prototype" object
+*/
 
-// eg:- class Person{
-// [this function display can be inherited]
-//     Person.prototype.display() = function () {
-//         console.log("hello");
-//     }
-// }
+/*
+ eg:- class Person{
+ [this function display can be inherited]
+    Person.prototype.display() = function () {
+        console.log("hello");
+     }
+ }
+*/
 
 // Number , Array , Object all are inbuilt classes
 
