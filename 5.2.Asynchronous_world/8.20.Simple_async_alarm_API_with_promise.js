@@ -5,15 +5,17 @@ const clickButton = document.getElementById("clickButton");
 
 //
 function setAlarm(name, delay) {
-    let promise = new Promise((resolve, reject) => {
-        if (delay < 0)
-            throw new Error("Wrong delay");
+    let promise = new Promise(
+        (resolve, reject) => {
+            if (delay < 0)
+                throw new Error("Wrong delay");
 
-        setTimeout(() => {
-            resolve(`Wake up ${name}`);
-        }, delay);
+            setTimeout(() => {
+                resolve(`Wake up ${name}`);
+            }, delay);
 
-    });
+        }
+    );
 
     return promise;
 }

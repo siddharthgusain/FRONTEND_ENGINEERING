@@ -27,7 +27,7 @@ TO THE STACK FRAME AND RUN LINE BY LINE.
 
 There are two types of callbacks
 
-1. synchronous callbacks-> which are called then and there
+1. "Synchronous callbacks" -> which are called then and there
 /* 
 eg :- function a(callback) {
     callback();
@@ -38,5 +38,5 @@ a(function (){
 });
 */
 
-2. asynchronous callbacks -> They are registered into the memory and scheduled by event loop.
+2. "Asynchronous callbacks" -> They are registered into the memory and scheduled by event loop.
 Usually used with WEB API to asynchronous task like event handlers, api calls, timer functionaility
