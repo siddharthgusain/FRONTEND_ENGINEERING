@@ -4,6 +4,7 @@
 const inputObject = document.getElementById("searchBar");
 
 const getData = () => {
+    console.log(this);
     console.log("SEARCHING.......")
 }
 
@@ -12,7 +13,7 @@ const delayedFunction = function (fun, delay) {
     return function (...args) {
         clearTimeout(timer);
         timer = setTimeout(() => {
-            fun.apply(this, args);
+            fun.apply(this, args); // we used apply for obj binding
         }, delay);
     }
 }
