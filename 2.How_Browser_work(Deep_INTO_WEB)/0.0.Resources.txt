@@ -1,4 +1,4 @@
 1. https://www.youtube.com/playlist?list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx --> Chrome university 
-2. https://developers.google.com/web/updates/2018/09/inside-browser-part1
+2. https://developers.google.com/web/updates/2018/09/inside-browser-part1 --> Google web article
 3. https://www.youtube.com/watch?v=rVb0pfGFZFw --> prashant palikhe
 4. https://browser.engineering/ --> Write small browser
