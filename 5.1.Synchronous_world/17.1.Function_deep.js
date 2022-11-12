@@ -29,12 +29,15 @@ const mycar = {
 
 // x gets the value "Honda"
 const x = mycar.make;
-
+console.log(x);
+console.log("BEFORE MODIFICATION:", mycar);
 // the make property is changed by the function , as obj is passed as reference
 myFunc(mycar);
+console.log("AFTER MODIFICATION:", mycar);
 
 // y gets the value "Toyota"
 const y = mycar.make;
+console.log(y);
 
 
 // ARRAY AS PARAMETER 
@@ -66,4 +69,20 @@ function has access.
 -> Primitive data types such as string, number, null, undefined, and boolean, are passed by value 
 -> Non-primitive data types such as objects, arrays, and functions are passed by reference 
 in Javascript.
+*/
+
+
+//--------------Argument Object----------------
+function myFunction() {
+    console.log(arguments); // [1, 2, 3]
+    for (let i = 0; i < arguments.length; i++)
+        console.log(arguments[i]);
+}
+
+myFunction(1, 2, 3)
+
+/*
+Note: The arguments variable is "array-like", but not an array. It is array-like in that it has a 
+numbered index and a length property. However, it does not possess all of the array-manipulation methods.
+
 */
