@@ -1,5 +1,5 @@
-var arr = [1, 2, 3];
-var arr1 = new Array(1, 2, 3);
+var arr = [1, 2, 3]; // array literal
+var arr1 = new Array(1, 2, 3); // Cnstructor of Array Object
 
 console.log(arr);
 console.log(arr[0]);
@@ -37,6 +37,7 @@ console.log(arr4);
 arr4.shift();
 console.log(arr4);
 
+//------SLICE-------------
 arr4.slice(1, 3); //[1,2,3]
 
 
@@ -47,3 +48,7 @@ myArray.splice(1, 3, 'a', 'b', 'c', 'd');
 // This code started at index one (or where the "2" was),
 // removed 3 elements there, and then inserted all consecutive
 // elements in its place.
+
+// ----- Flattening array---------
+const multiArr = [1, 2, [3, 4, 5]];
+console.log(multiArr.flat()) // [1,2,3,4,5]
