@@ -64,3 +64,18 @@ function Person(nameParam) {
 
 const sidWithConstructor = new Person("sid");
 sidWithConstructor.introduceSelf();
+
+//--------Object.create()--------------
+// Animal properties and method encapsulation
+const Animal = {
+    type: "Invertebrates", // Default value of properties
+    displayType() {
+        // Method which will display type of Animal
+        console.log(this.type);
+    },
+};
+
+// Now i need to create another object using above object as prototype
+const animalObject = Object.create(Animal);
+console.log(animalObject.__proto__); // Above properties type and displayType will be present in __proto__
+animalObject.displayType(); // we can access it because of scope chaining
