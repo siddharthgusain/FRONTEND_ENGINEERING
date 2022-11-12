@@ -79,3 +79,14 @@ const Animal = {
 const animalObject = Object.create(Animal);
 console.log(animalObject.__proto__); // Above properties type and displayType will be present in __proto__
 animalObject.displayType(); // we can access it because of scope chaining
+
+
+//----------DELETING OBJECT property----------
+const obj = {
+    a: 1,
+    b: 2
+}
+
+delete obj.a;
+
+console.log(obj) //{b:2}
