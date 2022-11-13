@@ -35,3 +35,13 @@ Promise.race([promise1, promise2]).then((value) => {
   // expected output: "two"
 
 // ITs kind of racing condition , output depends of completion of events
+
+//-------------PROMISE RACE VS ANY--------------
+/*
+
+-> Promise.race is settled as soon as "ANY" of the promises you feed it settle, 
+whether they are fulfilled or rejected.
+
+-> Promise.any is settled as soon as any of the promises you feed it is fulfilled or they are "ALL" rejected,
+
+*/
