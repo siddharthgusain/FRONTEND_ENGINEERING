@@ -1,6 +1,6 @@
 console.log("Before settimeout")
 
-setTimeout(() => {
+setTimeout(function callback() {
     console.log("I am callback of setTimeout")
 }, 5000);
 
