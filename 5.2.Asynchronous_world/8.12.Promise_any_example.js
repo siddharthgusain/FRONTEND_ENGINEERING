@@ -12,3 +12,26 @@ Promise.any([fetchPromise1, fetchPromise2, fetchPromise3])
 
 // Note :- In case of any , callback in then() is called once for the api that is completed first
 // Here Any api can complete first , we dont know.
+
+
+//------------PROMISE.RACE-----------
+/*
+The Promise.race() method takes an iterable of promises as input and returns a single Promise. 
+This returned promise settles with the eventual state of the first promise that settles.
+*/
+
+const promise1 = new Promise((resolve, reject) => {
+    setTimeout(resolve, 500, 'one');
+});
+
+const promise2 = new Promise((resolve, reject) => {
+    setTimeout(resolve, 100, 'two');
+});
+
+Promise.race([promise1, promise2]).then((value) => {
+    console.log(value);
+    // Both resolve, but promise2 is faster
+});
+  // expected output: "two"
+
+// ITs kind of racing condition , output depends of completion of events
