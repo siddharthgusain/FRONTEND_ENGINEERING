@@ -8,8 +8,10 @@ when an event occurs, and provides a mechanism by which an action can be automat
 taken (that is, some code running) when the event occurs.
 */
 
-// callbacks functions can be used to handle events , so those callbacks which 
-//handle events are known as event handlers
+/* 
+callbacks functions can be used to handle events , so those callbacks which 
+handle events are known as event handlers
+*/
 
 /*
 In the case of the Web, events are fired inside the browser window, and 

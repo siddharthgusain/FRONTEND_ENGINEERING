@@ -6,7 +6,6 @@
 -> In browsers JS ENGINE + Browser API are available through global object "window" , in case of NODEJS , JS ENGINE + various 
 server related C++ API are available in NODEJS environment. 
 
-
 JS compilation has 3 major step :-
 1. Parsing 
 2. Compilation 
