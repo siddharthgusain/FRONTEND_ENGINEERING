@@ -1,18 +1,20 @@
 -> The first step in developing an event-driven program is to write a series of subroutines, or 
-methods, called event-handler routines. These routines handle the events to which the main program 
+methods, called "EVENT HANDLERS routines. These routines handle the events to which the main program 
 will respond. For example, a single left-button mouse-click on a command button in a GUI program may 
 trigger a routine that will open another window, save data to a database or exit the application. 
 
 Many modern-day programming environments provide the programmer with event templates, allowing the 
-programmer to focus on writing the event code.
+programmer to focus on writing the "EVENT HANDLERS"
 
 -> The second step is to bind event handlers to events so that the correct function is called when 
-the event takes place. Graphical editors combine the first two steps: double-click on a button,
+the event takes place. 
+
+-> Graphical editors combine the first two steps: double-click on a button,
 and the editor creates an (empty) event handler associated with the user clicking the button and 
 opens a text window so you can edit the event handler.
 
 -> "The third step in developing an event-driven program is to write the main loop". This is a function
 that checks for the occurrence of events, and then calls the matching event handler to process it. 
 
-NOTE:- Most event-driven programming environments "already provide this main loop", so it need not be 
-specifically provided by the "application programmer".
+NOTE:- Most event-driven programming environments "ALREADY PROVIDE THIS EVENT LOOP", so it need not be 
+specifically provided by the "APPLICATION PROGRAMMERS".
