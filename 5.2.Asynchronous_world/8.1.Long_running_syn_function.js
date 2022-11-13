@@ -35,4 +35,4 @@ document.querySelector('#reload').addEventListener('click', () => {
 });
 
 
-// so Generate prime is blocking th main thread as it is synchronous
+// so Generate prime is blocking th main thread for very long time as it is synchronous, this leads to bad user experience
