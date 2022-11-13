@@ -1,4 +1,4 @@
--> Lets consider a case of Eccomerce website
+-> Lets consider a case of Ecommerce website
 
 const cart = ["shoes","pants","kurta"];
 
@@ -16,18 +16,18 @@ api.createOrder(cart,function (){
 })
 
 // In real enterprise softwares we have thousand of API , managing them like this is really messy
-// It is also known as callback hell when apis are dependent on each other.
+// It is also known as "CALLBACK HELL" when apis are dependent on each other.
 // It is hard to manage and scale
-// This structure is known as pyramid of DOME
+// This structure is known as "PYRAMID OF DOOM"
 
 // Lets talk about Inversion of control 
 -> Loosing the control over code when using callbacks
 api.createOrder(cart,function (){
-    api.proceedToPayment() // this callback is given to createOrder       
+    pi.proceedToPayment() // this callback is given to createOrder       
 })
 
 // Now we have given responsibility of calling payment api to "createOrder"
-// So we are giving control of our code to other code.
+// So we are giving control of our code to other code , may be this createOrder is written by someone else
 // What if create order is badly written and it calls payment api in wrong way
 
 // IOC is solved by promise as , we attach callback to promise object not to other code
