@@ -9,4 +9,5 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
     .catch((err) => {
         console.log(err);
     });
+
 // catch will be called if any of the promise in the chain fails
