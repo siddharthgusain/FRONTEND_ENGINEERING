@@ -1,4 +1,4 @@
-// map
+// -----------------MAP----------------
 const users = [
     { first: "sid", last: "gusain", age: 26 },
     { first: "sid1", last: "gusain1", age: 12 },
@@ -10,10 +10,10 @@ const output = users.map((item) => {
     return item.first + " " + item.last;
 })
 
-console.log(output);
+console.log(output); // ['sid gusain', 'sid1 gusain1', 'sid2 gusain2', 'sid3 gusain3']
 
 
-// Reduce
+// ---------------Reduce---------------
 
 const output1 = users.reduce((acc, curr) => {
 
@@ -26,4 +26,4 @@ const output1 = users.reduce((acc, curr) => {
     return acc;
 }, {});
 
-console.log(output1);
+console.log(output1); // {12: 1, 14: 1, 26: 2} // count of different ages
