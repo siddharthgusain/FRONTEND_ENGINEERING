@@ -17,6 +17,7 @@ async function fetchTodo() {
 }
 
 fetchTodo();
+console.log(10); // NOTE :- this 10 will be printed first then the await statements
 
 /*
 Async/Await enables us to write asynchronous code in a synchronous fashion, which produces 
