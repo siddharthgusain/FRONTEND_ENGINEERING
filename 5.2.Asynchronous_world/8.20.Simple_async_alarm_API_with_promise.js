@@ -22,12 +22,13 @@ function setAlarm(name, delay) {
 
 // without async await
 clickButton.addEventListener("click", () => {
-    setAlarm(personName.value, delay.value).then((msg) => {
+    const promise = setAlarm(personName.value, delay.value); // returns promise
+    promise.then((msg) => {
         output.innerText = msg;
     })
 });
 
-//with async await cleaner way of writing code
+//with async await "cleaner way" of writing code
 clickButton.addEventListener("click", async () => {
     const msg = await setAlarm(personName.value, delay.value);
     output.innerText = msg;
