@@ -1,6 +1,6 @@
 // Find first pair with zero sum;
 // [-5,-4,-3,-2,0,2,4,6,8]
-// (-4,4) (-2,2)
+// (-4,4)
 
 // For zero , we need negative of same number
 // "array is unsorted"
