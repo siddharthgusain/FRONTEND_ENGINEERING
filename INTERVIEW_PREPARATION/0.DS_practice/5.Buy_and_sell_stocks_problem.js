@@ -70,3 +70,6 @@ function profitWithPointerApproach(input) {
 }
 
 console.log(profitWithPointerApproach(input))
+
+//TC:- O(n)
+//SC: O(1)
