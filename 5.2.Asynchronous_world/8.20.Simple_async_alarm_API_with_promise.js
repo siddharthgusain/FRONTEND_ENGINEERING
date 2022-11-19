@@ -8,7 +8,7 @@ function setAlarm(name, delay) {
     let promise = new Promise(
         (resolve, reject) => {
             if (delay < 0)
-                throw new Error("Wrong delay");
+                throw new Error("Wrong delay"); // or reject("Wrong delay")
 
             setTimeout(() => {
                 resolve(`Wake up ${name}`);
