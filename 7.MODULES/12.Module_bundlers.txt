@@ -11,5 +11,5 @@ which are "STATIC ASSETS" to serve your content from.
 
 VARIOUS FAMOUS MODULE BUNDLERS:-
 1. Webpack 
-2. VIte
+2. Vite
 3. Parcel
