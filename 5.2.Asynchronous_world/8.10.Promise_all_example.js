@@ -12,45 +12,22 @@ Promise.all([fetchPromise1, fetchPromise2, fetchPromise3])
         console.error(`Failed to fetch: ${error}`)
     });
 
-// Note:- the callback in then() is only called once all the 3 promises are "settled"
-// NOTE:- If any of the promise "REJECT" , then it will abort the other as well
+// Note:- the callback in then() is only called once all the 3 promises are "fullfilled"
+// NOTE:- If any of the promise "REJECT" , then it will abort the other as well and catch is "RUN"
 // Usefull when the API calls are not dependent on each other.
 
+const promise1 = Promise.resolve(1);
+const promise2 = Promise.reject(2);
+const promise3 = Promise.resolve(3);
 
-//----------------PROMISE.ALLSETTLED-----------------
-/*
-The Promise.allSettled() method takes an iterable of promises as input and returns a single Promise.
-This returned promise fulfills when all of the input's promises settle (including when an empty 
-iterable is passed), with an array of objects that describe the outcome of each promise.
-*/
+Promise.all([promise1, promise2, promise3])
+    .then((responses) => {
+        for (const response of responses) {
+            console.log(`${response}`);
+        }
+    }).catch((error) => {
+        console.log("CATCH IS CALLED");
+    })
 
-const promise1 = Promise.resolve(3);
-const promise2 = new Promise((resolve, reject) => setTimeout(reject, 100, 'foo'));
-const promises = [promise1, promise2];
-
-Promise.allSettled(promises)
-    .then((results) =>
-        results.forEach((result) => console.log(result.status))
-    );
-
-/*
-The Promise.allSettled() method is one of the promise concurrency methods. 
-Promise.allSettled() is typically used when you have multiple asynchronous tasks 
-that are not dependent on one another to complete successfully,
-"or you'd always like to know the result of each promise"
-*/
-
-//------------ANOTHER EXAMPLE------------
-Promise.allSettled([
-    Promise.resolve(33), // promise1
-    new Promise((resolve) => setTimeout(() => resolve(66), 0)), //promise2
-    99,
-    Promise.reject(new Error("an error")), //promise 3
-])
-    .then((values) => console.log(values))
-    .catch((err) => {
-        console.log(err);
-    });
-
-// Here catch will never be called even if any of the promise is "REJECTED" UNLIKE Promise.all
-// It is usefull if you want to know status of all promises
+// If any one promise is "REJECTED" , catch callback is called
+// If all are "FULLFILLED", then() is called
