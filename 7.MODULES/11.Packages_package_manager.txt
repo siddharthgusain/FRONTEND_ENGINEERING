@@ -16,3 +16,10 @@ command line softwares like "NPM" and "yarn"
 NPM:- NODE PACKAGE MANAGER
 YARN:- Yet Another Resource Negotiator (By facebook)-> faster than npm
 
+-> ALL PACKAGES THAT WE INSTALL FROM REGISTERY ARE CREATED INSIDE "node_modules" i.e a gaint directory
+containing packages and dependencies.
+
+-> NEVER PUSH "node_modules" cuz to generate this directory , only package.json is required
+-> package.json is json file containing meta data about the project like dependencies and other configs
+and npm scripts
+
