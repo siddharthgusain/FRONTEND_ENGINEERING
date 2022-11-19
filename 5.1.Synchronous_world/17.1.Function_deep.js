@@ -1,4 +1,4 @@
-// PRIMITIVE TYPE AS PARAMETERS
+// "PRIMITIVE TYPE" AS PARAMETERS
 function square(number) {
     number = 1220;
 }
@@ -15,7 +15,7 @@ square(a);
 console.log(a); // 10 , value is not changed 
 
 
-// OBJECT AS PARAMTER
+// OBJECT AS PARAMETER
 
 function myFunc(obj) {
     obj.make = 'Toyota';
@@ -41,33 +41,37 @@ console.log(y);
 
 
 // ARRAY AS PARAMETER 
-function myFunc(arr) {
+function myFunc1(arr) {
     arr[0] = 30;
 }
 
 const arr = [45];
 
 console.log(arr[0]); // 45
-myFunc(arr); // passed as reference
+myFunc1(arr); // passed as reference
 console.log(arr[0]); // 30
 
 
 // SCOPE OF FUNCTION
 /*
 -> Variables defined inside a function cannot be accessed from anywhere outside the function,
-because the variable is defined only in the scope of the function. However, a function
-can access all variables and functions defined inside the scope in which it is defined.
+because the variable is defined only in the scope of the function.
+
+-> However, a function can access all variables and functions defined inside the scope in which 
+it is defined.
 
 -> In other words, a function defined in the global scope can access all variables defined
-in the global scope. A function defined inside another function can also access all
+in the global scope.
+
+-> A function defined inside another function can also access all
 variables defined in its parent function, and any other variables to which the parent
 function has access.
 */
 
 // FINAL NOTE 
 /*
--> Primitive data types such as string, number, null, undefined, and boolean, are passed by value 
--> Non-primitive data types such as objects, arrays, and functions are passed by reference 
+-> Primitive data types such as "string, number, null, undefined, and boolean", are "PASSED BY VALUE" 
+-> Non-primitive data types such as "objects, arrays, and functions" are "PASSED BY REFERENCE" 
 in Javascript.
 */
 
@@ -82,7 +86,6 @@ function myFunction() {
 myFunction(1, 2, 3)
 
 /*
-Note: The arguments variable is "array-like", but not an array. It is array-like in that it has a 
+Note: The "arguments variable" is "array-like", but not an array. It is array-like in that it has a 
 numbered index and a length property. However, it does not possess all of the array-manipulation methods.
-
 */
