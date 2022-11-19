@@ -43,3 +43,11 @@ Math.pow(1, 3);  // --> 1
 Math.abs(-1); // 1
 Math.ceil(12.5); // 13
 
+
+//-----------BigInt--------------------
+const bigInt = 123n; // bigint literal
+const bigIntObject = BigInt(123);
+
+console.log(bigInt);
+console.log(bigIntObject);
+
