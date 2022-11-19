@@ -25,7 +25,7 @@ function print_number_with_let() {
 }
 
 function print_number_without_let() {
-    for (let i = 0; i < 5; i++) {
+    for (var i = 0; i < 5; i++) {
 
         function close(local) {
             setTimeout(function () {

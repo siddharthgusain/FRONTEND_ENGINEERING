@@ -3,6 +3,8 @@
 // Classes are generally used while creating your own Libraries and frameworks or enterprise Web application
 // Design patterns are also implmented using classes
 
+// const hoistedObject = new Person(); Referrence Error classes are not hoisted
+
 class Person {
 
     constructor(nameParam, ageParam) {
