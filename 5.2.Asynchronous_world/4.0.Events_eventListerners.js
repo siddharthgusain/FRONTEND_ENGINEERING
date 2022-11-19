@@ -21,15 +21,16 @@ the HTML document loaded in the current tab, or the entire browser window.
 
 */
 
-const h1 = window.document.querySelector('h1');
+const h1 = window.document.querySelector('h1'); // takes ms to compute
 /*  
-Note:- DOM API is synchronous and there are no callbacks , JS engine moves to next line 
+Note:- DOM API is SYNCHRONOUS and there are no callbacks , JS engine moves to next line 
 after executing this current line above.
 */
 
 h1.onclick = function () {
     console.log("hello");
-}; // this is a callback or event listerner
+};
+// this is a callback or event listerner
 // note it is registered first and called only after JS stack is empty
 
 console.log(h1);

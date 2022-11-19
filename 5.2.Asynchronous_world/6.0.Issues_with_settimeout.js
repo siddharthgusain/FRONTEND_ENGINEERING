@@ -3,7 +3,7 @@ setTimeout(function () {
 }, 0);
 
 /* 
-This doesnt gurantee that settimeout will run immedietaly 
+This doesnt gurantee that settimeout will run immediately 
 It all depends on state of call stack if it is empty or not
 Settimeout gives the "MINIMUM TIME" after which callback will be 
 executed in ideal condition.
