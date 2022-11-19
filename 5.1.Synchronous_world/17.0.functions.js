@@ -53,3 +53,13 @@ arrow(10);
 (function () {
     console.log("IIFE");
 })();
+
+//-----------FACTS ABOUT ANONYMOUS FUNCTION----------
+/*
+1. Anonymous functions are never hoisted (loaded into memory at compilation).
+2. When invoking an anonymous function, you can only call it "AFTER" the declaration line.
+3. Anonymous functions can be very handy when developing IIFEs (Instantly Invoked Function Expressions).
+4. They can be assigned to some variable or used as IIFE or passed as callback to higher order function.
+5. Can't be used as simple function
+*/
+
