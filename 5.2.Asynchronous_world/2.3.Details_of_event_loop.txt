@@ -17,3 +17,21 @@ process as this JS engine is running in main thread, Thus, JANK appears on scree
 one way to reduce it.
 
 -> Its important to write callbacks carefully and add event listerners carefully.
+
+//-----SIMPLE EVENT LOOP---------------
+
+while (queue.waitForMessage()) {
+  queue.processNextMessage();
+}
+
+-> queue.waitForMessage() waits synchronously for a message to arrive 
+(if one is not already available and waiting to be handled).
+
+/*
+-> In web browsers, messages are added anytime an event occurs and there is an event listener attached 
+to it. 
+
+-> If there is no listener, "THE EVENT IS LOST". 
+
+-> So a click on an element with a click event handler will add a message — likewise with any other event.
+*/
