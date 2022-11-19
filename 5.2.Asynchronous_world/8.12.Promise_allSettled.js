@@ -12,14 +12,10 @@ const promises = [promise1, promise2];
 Promise.allSettled(promises)
     .then((results) =>
         results.forEach((result) => console.log(result.status))
-    );
+    ).catch((err) => {
+        console.log("CATCH IS CALLED");
+    });
 
-/*
-The Promise.allSettled() method is one of the promise concurrency methods. 
-Promise.allSettled() is typically used when you have multiple asynchronous tasks 
-that are not dependent on one another to complete successfully,
-"or you'd always like to know the result of each promise"
-*/
 
 //------------ANOTHER EXAMPLE------------
 Promise.allSettled([
@@ -30,7 +26,7 @@ Promise.allSettled([
 ])
     .then((values) => console.log(values))
     .catch((err) => {
-        console.log(err);
+        console.log("CATCH IS CALLED");
     });
 
 // Here catch will never be called even if any of the promise is "REJECTED" UNLIKE Promise.all
