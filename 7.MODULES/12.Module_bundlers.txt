@@ -1,0 +1,15 @@
+-> We have talked about some problems with native module support in browser
+-> Also doing http request for each module can decrease the performance of website
+-> SO there is need to bundle the JS modules into one or more bundled js file, this is solved by
+module bundlers.
+
+-> At its core, Module Bundlers is a "STATIC MODULE BUNDLER" for modern JavaScript applications. 
+-> When webpack processes your application, it internally builds a "DEPENDENCY GRAPH" from one or 
+more entry points and then combines every module your project needs into one or more bundles, 
+which are "STATIC ASSETS" to serve your content from.
+->SO basically , these bundlers do bundling before sending to browser
+
+VARIOUS FAMOUS MODULE BUNDLERS:-
+1. Webpack 
+2. VIte
+3. Parcel
