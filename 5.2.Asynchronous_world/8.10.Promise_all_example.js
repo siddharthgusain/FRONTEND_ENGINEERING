@@ -29,7 +29,9 @@ const promise2 = new Promise((resolve, reject) => setTimeout(reject, 100, 'foo')
 const promises = [promise1, promise2];
 
 Promise.allSettled(promises)
-    .then((results) => results.forEach((result) => console.log(result.status)));
+    .then((results) =>
+        results.forEach((result) => console.log(result.status))
+    );
 
 /*
 The Promise.allSettled() method is one of the promise concurrency methods. 
@@ -44,4 +46,11 @@ Promise.allSettled([
     new Promise((resolve) => setTimeout(() => resolve(66), 0)), //promise2
     99,
     Promise.reject(new Error("an error")), //promise 3
-]).then((values) => console.log(values));
+])
+    .then((values) => console.log(values))
+    .catch((err) => {
+        console.log(err);
+    });
+
+// Here catch will never be called even if any of the promise is "REJECTED" UNLIKE Promise.all
+// It is usefull if you want to know status of all promises
