@@ -31,3 +31,6 @@ console.log(mySet); // only one entry as other one is duplicate
 // how to remove duplicates in an Array
 // Easy way is to convert it to map
 let arr = [1, 1, 1, 1, 2, 3, 4, 5];
+
+let arrayToSet = new Set(arr);
+console.log(arrayToSet);

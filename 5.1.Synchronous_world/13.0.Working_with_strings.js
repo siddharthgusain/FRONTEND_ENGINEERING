@@ -25,7 +25,7 @@ console.log(st1); // mello
 
 // Creating string with String constructor Function
 let stringObject = new String("Siddharth");
-let stringLiteral = "siddharth";
+let stringLiteral = "siddharth"; // string literal
 
 console.log(typeof stringLiteral); // string
 console.log(typeof stringObject); // object
