@@ -20,7 +20,7 @@ api.createOrder(cart,function (){
 // It is hard to manage and scale
 // This structure is known as "PYRAMID OF DOOM"
 
-// Lets talk about Inversion of control 
+// Lets talk about "INVERSION OF CONTROL"
 -> Loosing the control over code when using callbacks
 api.createOrder(cart,function (){
     pi.proceedToPayment() // this callback is given to createOrder       

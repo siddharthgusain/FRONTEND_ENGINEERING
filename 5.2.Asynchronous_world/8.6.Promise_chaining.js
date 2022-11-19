@@ -28,7 +28,7 @@ jsonPromise.then((data) => {
     console.log(data);
 })
 
-// most simplified promise chaining
+// most simplified "PROMISE CHAINING"
 fetch('https://jsonplaceholder.typicode.com/todos/1')
     .then((response) => {
         if (!response.ok) {
