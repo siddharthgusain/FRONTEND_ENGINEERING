@@ -19,4 +19,4 @@ var arrow_function = () => {
 a();
 
 console.log(b);
-console.log(a);
+arrow_function();
