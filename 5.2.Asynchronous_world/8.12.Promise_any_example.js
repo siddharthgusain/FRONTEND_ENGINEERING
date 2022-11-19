@@ -15,35 +15,14 @@ Promise.any([fetchPromise1, fetchPromise2, fetchPromise3])
 // Here Any api can complete first , we dont know.
 // IF ALL OF THEM are "REJECTED", catch is called
 
+const promise1 = Promise.reject(1);
+const promise2 = Promise.reject(2);
+const promise3 = Promise.reject(3);
 
-//------------PROMISE.RACE-----------
-/*
-The Promise.race() method takes an iterable of promises as input and returns a single Promise. 
-This returned promise settles with the eventual state of the first promise that settles.
-*/
+Promise.any([promise1, promise2, promise3])
+    .then((response) => {
+        console.log(response);
+    }).catch((err) => {
+        console.log("CATCH IS CALLED"); // only called if all of the promises are rejected
+    });
 
-const promise1 = new Promise((resolve, reject) => {
-    setTimeout(resolve, 500, 'one');
-});
-
-const promise2 = new Promise((resolve, reject) => {
-    setTimeout(reject, 100, 'two');
-});
-
-Promise.race([promise1, promise2]).then((value) => {
-    console.log(value);
-    // Both resolve, but promise2 is faster
-});
-  // expected output: "two"
-
-// ITs kind of racing condition , output depends of completion of events
-
-//-------------PROMISE RACE VS ANY--------------
-/*
-
--> Promise.race is settled as soon as "ANY" of the promises you feed it settle, 
-whether they are fulfilled or rejected.
-
--> Promise.any is settled as soon as "ANY OF THE PROMISE" you feed it is "fulfilled" or they are "ALL" rejected,
-
-*/
