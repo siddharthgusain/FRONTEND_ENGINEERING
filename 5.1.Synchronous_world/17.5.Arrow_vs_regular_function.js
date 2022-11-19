@@ -10,7 +10,7 @@ let sum1 = (x, y) => x + y;
 
 //-----------------Argument OBJECT Binding---------------------
 function regularFunction() {
-    console.log(arguments)
+    console.log(arguments) // [1,2]
 }
 
 regularFunction(1, 2) // [1,2]
@@ -20,7 +20,7 @@ let arrow = () => console.log(arguments);
 arrow(1, 2); //ReferenceError: arguments is not defined
 
 // we can access with rest operator
-let arrow1 = (...args) => console.log(...args);
+let arrow1 = (...args) => console.log(...args); //[2,3]
 arrow1(2, 3); // 2 3
 
 
@@ -35,7 +35,7 @@ In regular function, this changes according to the way that function is invoked.
 -> Constructor Invocation: this equals the newly created instance.
 */
 
-var name = "Sid"
+var name = "Sid";
 let newObject = {
     name: "Messi",
     arrowFunc: () => {
@@ -91,5 +91,5 @@ const arrowFunc1 = () => {
 //---------WHEN NOT TO USE ARROW FUNCTION AND WHEN TO USE-----------------
 /*
 -> for callbacks/event listeners :- Use "ARROW FUNCTION"
--> For object creation /clases methods, and object methods :- use "NORMAL FUNCTION"
+-> For object creation /class methods, and object methods :- use "NORMAL FUNCTION"
 */
