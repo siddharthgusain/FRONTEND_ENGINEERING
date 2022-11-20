@@ -7,7 +7,7 @@ let multiplyByTwo = multiply.bind(this, 2);
 multiplyByTwo(5); // 2 * 5
 
 let multiplyByThree = multiply.bind(this, 3);
-multiplyByTwo(5);// 3 * 5
+multiplyByThree(5);// 3 * 5
 
 // Curry with closures
 let multiply1 = function (x) {
