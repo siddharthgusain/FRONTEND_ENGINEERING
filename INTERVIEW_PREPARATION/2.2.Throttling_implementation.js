@@ -7,6 +7,7 @@ const expensiveFunction = (...args) => {
 function delayedFunction(expensiveFunction, delay) { // higher order function to throttle
     let flag = true;
     return function (...args) {
+        console.log("INSIDE THROTTLE");
         if (flag) {
             expensiveFunction.apply(this, args); // call the function on first event
             flag = false; // to ignore in between events
@@ -17,7 +18,7 @@ function delayedFunction(expensiveFunction, delay) { // higher order function to
     }
 }
 
-const throttle = delayedFunction(expensiveFunction, 2000);
+const throttle = delayedFunction(expensiveFunction, 5000);
 
 window.addEventListener("resize", throttle);
 
