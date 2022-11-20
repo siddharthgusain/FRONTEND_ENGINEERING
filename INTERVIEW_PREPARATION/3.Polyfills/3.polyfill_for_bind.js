@@ -1,7 +1,7 @@
 Function.prototype.bindPolyfill = function (...args1) { // here args is an array
     let funRef = this; // printName function
     if (typeof funRef !== 'function') {
-        throw new Error("Wrong function");
+        throw new Error("Function is not callable");
     }
     let obj = args1[0]; // object reference
     let params = args1.slice(1);// other argument other than obj
