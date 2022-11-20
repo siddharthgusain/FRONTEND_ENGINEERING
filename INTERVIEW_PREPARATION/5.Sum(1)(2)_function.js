@@ -1,12 +1,12 @@
 // sum(1)(2)(3)(4) ---> 10
 
 // can be solved with recursion
-let sum = function (a) {
+function sum(a) {
     return function (b) {
-        if (b) {
-            return sum(a + b); // recursive calls
-        }
-        return a; // otherwise return the value
+        if (b)
+            return sum(a + b); //recursive call
+        else
+            return a; // for base case that is last function call without argument
     }
 }
 
