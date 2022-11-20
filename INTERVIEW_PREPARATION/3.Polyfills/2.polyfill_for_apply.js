@@ -1,4 +1,7 @@
 Function.prototype.applyPolyfill = function (obj, args) { // here args is an array
+    if (typeof this !== 'function') {
+        throw new Error("Function is not callable")
+    }
     obj.funRef = this; // creating a property in obj
     obj.funRef(...args); // calling the function we created in obj with other argument passed
 }
