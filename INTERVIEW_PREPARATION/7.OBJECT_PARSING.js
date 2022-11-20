@@ -12,7 +12,7 @@ const data = {
 }
 
 
-function getStateName(city) {
+function getStateName(city) { 
     const stateName = [];
     // logic to get stateName 
     const arr = Object.values(data);

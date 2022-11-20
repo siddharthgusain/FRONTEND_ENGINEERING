@@ -25,6 +25,7 @@ let result = {
 
 // can be solved with recursion
 let result = {};
+
 function flattenObject(obj, parentKey) {
     for (let key in obj) {
         let value = obj[key];
