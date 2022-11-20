@@ -11,7 +11,7 @@ const getData = async () => {
     console.log("DATA:", data);
 }
 
-const delayedFunction = function (fun, delay) {
+function delayedFunction(fun, delay) {
     let timer;
     console.log("DELAYED FUNCTION CALLED");
     return function (...args) {
