@@ -1,7 +1,0 @@
-2. SMALL PROJECT ON VANILLA JS
-3. FULL STACK APP(IDEA) + microfrontend
-4. OPEN SOURCE(FOSSASIA)[BACKEND PROJECTS]
-5. Testing
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Meta_programming
