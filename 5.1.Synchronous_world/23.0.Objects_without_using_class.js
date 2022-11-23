@@ -2,7 +2,7 @@
 var a1 = {};
 console.log(a1);
 
-// creating object with data member and functions
+// ---------------creating object with data member and functions--------
 var a2 = {
     name: {
         first: "sid",
@@ -33,7 +33,7 @@ var a3 = {
     }
 };
 
-// creating obj with simple function
+//-------------- creating obj with simple function------------
 function createPerson(nameParam) {
     const obj = {};
     obj.name = nameParam;
@@ -53,7 +53,7 @@ sid.introduceSelf();
 // "this" will point to "sid" object
 
 
-// Creating object with "new" operator
+//----------------- Creating object with "new" operator---------------
 function Person(nameParam) {
     console.log(this);
     this.name = nameParam;
