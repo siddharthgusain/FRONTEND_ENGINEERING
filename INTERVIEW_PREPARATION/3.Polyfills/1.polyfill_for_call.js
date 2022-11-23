@@ -10,8 +10,9 @@ Function.prototype.callPolyfill = function (obj, ...arg) { // here we used rest 
     if (typeof this !== 'function') {
         throw new Error('function is not callable');
     }
-    obj.funRef = this; // creating a property in obj
-    obj.funRef(...arg); // calling the function we created in obj with other argument passed
+    let objDeepCopy = JSON.parse(JSON.stringify(obj)); // to prevent mutating original object
+    objDeepCopy.funRef = this; // creating a property in obj
+    objDeepCopy.funRef(...arg); // calling the function we created in obj with other argument passed
 }
 
 
@@ -24,4 +25,5 @@ let obj = {
 }
 
 print.callPolyfill(obj, "hello", " world");
-console.log(obj);
+console.log(obj); // if we see it actually mutate the original object
+

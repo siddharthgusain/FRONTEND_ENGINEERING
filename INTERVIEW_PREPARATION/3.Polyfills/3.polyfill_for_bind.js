@@ -1,12 +1,12 @@
-Function.prototype.bindPolyfill = function (...args1) { // here args is an array
+Function.prototype.bindPolyfill = function (obj, ...args1) { // here args is an array
     let funRef = this; // printName function
     if (typeof funRef !== 'function') {
         throw new Error("Function is not callable");
     }
-    let obj = args1[0]; // object reference
-    let params = args1.slice(1);// other argument other than obj
+    let objDeepCopy = JSON.parse(JSON.stringify(obj)); // for deep cloning and not mutating original obj
+    let params = args1;// other argument other than obj
     return function (...args2) { // contains "testing"
-        funRef.apply(obj, [...params, ...args2]); // return a function which calls printName function with all arguments
+        funRef.apply(objDeepCopy, [...params, ...args2]); // return a function which calls printName function with all arguments
     }
 }
 

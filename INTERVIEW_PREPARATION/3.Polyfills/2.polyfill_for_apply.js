@@ -2,8 +2,9 @@ Function.prototype.applyPolyfill = function (obj, args) { // here args is an arr
     if (typeof this !== 'function') {
         throw new Error("Function is not callable")
     }
-    obj.funRef = this; // creating a property in obj
-    obj.funRef(...args); // calling the function we created in obj with other argument passed
+    let objDeepCopy = JSON.parse(JSON.stringify(obj));
+    objDeepCopy.funRef = this; // creating a property in obj
+    objDeepCopy.funRef(...args); // calling the function we created in obj with other argument passed
 }
 
 

@@ -33,6 +33,19 @@ console.log(arr1); //[1, 2, 3, 4, 5]
 console.log(arr2); //['modified', 2, 3, 4, 5]
 
 
+//--------USING STRUCTUREDCLONE-----------
+
+const objToBeCloned = {
+    "name": "sid"
+}
+
+const clonedObj = structuredClone(objToBeCloned);
+
+clonedObj["id"] = 1;
+
+console.log(objToBeCloned, clonedObj) // its a deep copy , but have some pitfalls
+
+
 
 
 
