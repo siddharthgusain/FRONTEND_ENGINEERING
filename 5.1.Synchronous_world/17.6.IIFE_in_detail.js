@@ -112,4 +112,4 @@ console.log(modulePattern.privateVariable) // undefined
         logger();
     })()
 
-    // NOTE :- If you see the bundle spitted by webpack , it is actually and IIFE used to prevent global pollution
+    // NOTE :- If you see the bundle spitted by webpack , it is actually an IIFE used to prevent global pollution
