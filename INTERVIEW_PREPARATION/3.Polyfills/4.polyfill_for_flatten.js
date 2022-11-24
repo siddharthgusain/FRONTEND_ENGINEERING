@@ -4,7 +4,7 @@ let arr = [1, 2, 3, [1, 2, 3, [2, 3]]];
 Array.prototype.myFlatPolyfill = function (depth) {
     let arr = this;
     let flattenedArray = [];
-    if (depth === undefined) depth = 1; // if user doesnt pass depth
+    if (depth === undefined) depth = 1; // if user doesn't pass depth
 
     function recursiveFlat(arr, depth) { // defining a recursive function
         arr.forEach((item) => {
