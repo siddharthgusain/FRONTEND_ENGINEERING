@@ -1,8 +1,5 @@
 let arr = [1, 2, 3, [1, 2, 3, [2, 3]]];
-
-
-
-
+// MY polyfill
 
 Array.prototype.myFlatPolyfill = function (depth) {
     let arr = this;
@@ -24,6 +21,8 @@ Array.prototype.myFlatPolyfill = function (depth) {
 }
 
 console.log(arr.flat(2)); // argument to flat is "depth to which to be flattened"
+
+
 console.log(arr.myFlatPolyfill(2));
 
-// NOTE:- default depth is 1
+// NOTE:- default depth is 1, i.e if no arugument is passed
