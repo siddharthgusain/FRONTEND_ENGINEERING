@@ -53,7 +53,7 @@ memoizedAdd(10) // cached result
 
 // lets create a factorial function
 function factorial(n) {
-    if (n === 1)
+    if (n === 1 || n === 0)
         return 1;
     return n * memoizedFactorial(n - 1); // here we are calling memoizedFactorial not actual factorial
 }
@@ -65,19 +65,21 @@ function memoize1(fn) {
             console.log('Fetching from cache', arg, cache[arg]);
             return cache[arg];
         }
-        else {
-            let result = fn(arg);
-            cache[arg] = result;
-            console.log('Calculating result', arg, result);
-            return result;
-        }
+
+        let result = fn(arg);
+        cache[arg] = result;
+        console.log('Calculating result', arg, result);
+        return result;
+
     }
 }
 
 let memoizedFactorial = memoize1(factorial);
 
 console.log(memoizedFactorial(5));
+console.log("------------------------");
 console.log(memoizedFactorial(6));
+console.log("------------------------");
 console.log(memoizedFactorial(7));
 
 
