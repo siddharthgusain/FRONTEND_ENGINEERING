@@ -3,6 +3,9 @@
 -> SO there is need to bundle the JS modules into one or more bundled js file, this is solved by
 module bundlers.
 
+-> In real-life, browser modules are rarely used in their “raw” form. Usually, we bundle 
+them together with a special tool such as Webpack and deploy to the production server.
+
 -> At its core, Module Bundlers is a "STATIC MODULE BUNDLER" for modern JavaScript applications. 
 -> When webpack processes your application, it internally builds a "DEPENDENCY GRAPH" from one or 
 more entry points and then combines every module your project needs into one or more bundles, 
@@ -13,3 +16,6 @@ VARIOUS FAMOUS MODULE BUNDLERS:-
 1. Webpack 
 2. Vite
 3. Parcel
+
+-> One of the benefits of using bundlers – they give more control over how modules are resolved,
+allowing bare modules and much more, like CSS/HTML modules.

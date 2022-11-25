@@ -1,0 +1,26 @@
+-> In large scale js application , we can't write all the code in one js file and 
+just attach the script to html 
+
+-> The whole application is divided into small js files/modules and modularize the application
+into maintainable peaces.
+
+-> JS modules is a way to do that
+
+-> A module may contain a class or a library of functions for a specific purpose.
+
+-> For a long time, JavaScript existed without a language-level module syntax. 
+That wasn’t a problem, because initially scripts were small and simple, so there was no need.
+
+-> But eventually scripts became more and more complex, so the community invented a variety 
+of ways to organize code into modules, special libraries to load modules on demand.
+
+To name some (for historical reasons):
+
+1. AMD – one of the most ancient module systems, initially implemented by the library require.js.
+2. CommonJS – the module system created for Node.js server.
+3. UMD – one more module system, suggested as a universal one, compatible with AMD and CommonJS.
+
+-> The language-level module system appeared in the standard in 2015, gradually evolved 
+since then, and is now supported by all major browsers and in Node.js. So we’ll study 
+the modern JavaScript modules from now on.
+
