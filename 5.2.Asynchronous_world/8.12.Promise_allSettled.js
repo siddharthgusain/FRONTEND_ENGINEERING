@@ -1,7 +1,7 @@
 //----------------PROMISE.ALLSETTLED-----------------
 /*
 The Promise.allSettled() method takes an iterable of promises as input and returns a single Promise.
-This returned promise fulfills when all of the input's promises settle (including when an empty 
+This returned promise fulfills when all of the input's promises "SETTLED" (including when an empty 
 iterable is passed), with an array of objects that describe the outcome of each promise.
 */
 
