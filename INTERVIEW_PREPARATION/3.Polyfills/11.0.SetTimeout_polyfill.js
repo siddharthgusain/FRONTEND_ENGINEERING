@@ -1,12 +1,12 @@
 // lets create a sleep() implementation
 
-// function sleep(delay) {
-//     let startTIme = Date.now();
+function sleep(delay) {
+    let startTIme = Date.now();
 
-//     while (Date.now() > startTIme + delay);
-// }
+    while (Date.now() < startTIme + delay);
+}
 
-// sleep(5000);
+sleep(5000);
 
 
 // custom settimeout and cleartimeout with IIFE to avoid global scope pollution
