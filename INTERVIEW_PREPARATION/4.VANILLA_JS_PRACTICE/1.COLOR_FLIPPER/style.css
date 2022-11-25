@@ -1,0 +1,20 @@
+#bgColorText {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+#clickMeButton {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+}
