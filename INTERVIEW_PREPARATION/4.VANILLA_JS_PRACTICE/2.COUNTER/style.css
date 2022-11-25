@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.increase {
+    background-color: greenyellow;
+}
+
+.decrease {
+    background-color: blueviolet;
+}
+
+.reset {
+    background-color: red;
+}
