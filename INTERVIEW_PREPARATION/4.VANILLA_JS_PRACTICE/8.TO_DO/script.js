@@ -104,6 +104,7 @@
 
     function deleteItem(e) {
         const element = e.currentTarget.parentElement.parentElement;
+        console.log(element)
         const id = element.dataset.id;
 
         list.removeChild(element);
@@ -125,7 +126,7 @@
         editElement = e.currentTarget.parentElement.previousElementSibling;
         // set form value
         grocery.value = editElement.innerHTML;
-        editFlag = true;
+        editFlag = true; // change edit flag so that else logic of submit button event listner can work
         editID = element.dataset.id;
         //
         submitBtn.textContent = "edit";
