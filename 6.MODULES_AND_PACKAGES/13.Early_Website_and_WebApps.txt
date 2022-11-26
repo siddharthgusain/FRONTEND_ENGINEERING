@@ -15,3 +15,4 @@ mobile application.
 -> React became popular as a library
 
 -> These APPLICATION also known As Single Page Application(SPA).
+
