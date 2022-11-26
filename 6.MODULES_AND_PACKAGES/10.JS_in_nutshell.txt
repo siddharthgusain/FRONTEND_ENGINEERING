@@ -9,4 +9,4 @@ according to this.
 -> That is what frontend is all about in a nutshell.
 
 -> Frontend-> Consuming data and giving user way to interact and manage data 
-carefully by keeping performance(JANKS) in mind.
+carefully by keeping performance(JANKS) in mind for best UI AND User experience.

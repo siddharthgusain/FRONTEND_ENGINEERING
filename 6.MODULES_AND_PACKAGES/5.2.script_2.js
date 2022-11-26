@@ -1,7 +1,7 @@
 a = 20; // we are simply modifying "a" defined in script1, this can be solved with module
-b = 290;
+b = 290; // we are modifying b
 console.log(a);
-console.log(b)
+console.log(b);
 
 // NOTE:- both script 1 and script 2 are sharing same "JS ENGINE instance" or same renderer process
 

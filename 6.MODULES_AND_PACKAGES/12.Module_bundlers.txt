@@ -25,7 +25,7 @@ Build tools do the following:
 1. Take a “main” module, the one intended to be put in <script type="module"> in HTML.
 2. Analyze its dependencies: imports and then imports of imports etc.
 3. Build a single file with all modules (or multiple files, that’s tunable), replacing native import 
-calls with bundler functions, so that it works. “Special” module types like HTML/CSS modules 
+calls with "bundler functions", so that it works. “Special” module types like HTML/CSS modules 
 are also supported.
 4. In the process, other transformations and optimizations may be applied:
             -> Unreachable code removed.
