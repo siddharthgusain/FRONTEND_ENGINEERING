@@ -8,10 +8,13 @@
     const container = document.querySelector(".grocery-container");
     const list = document.querySelector(".grocery-list");
     const clearBtn = document.querySelector(".clear-btn");
-    // edit option
+
+    // edit option(STATE IN TERMS OF REACT)
     let editElement;
     let editFlag = false;
     let editID = "";
+
+
     // ****** event listeners **********
 
     // submit form

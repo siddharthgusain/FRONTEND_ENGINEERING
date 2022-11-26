@@ -1,0 +1,43 @@
+-> Lets talk about Single page application first
+
+-> An SPA (Single-page application) is a web app implementation that loads only a single web document, 
+and then updates the body content of that single document via JavaScript APIs such as 
+XMLHttpRequest and Fetch when different content is to be shown.
+
+-> SO in Single page application state , route are managed on client side by javascript.
+
+Why Need of component based architecture?
+-> Component based architecture is easy to reuse and maintain
+-> Dividing UI into components can make the development easy and fast
+-> Because of Component based architecture , Website got converged to WEB APPS and architecture
+is similar to Native mobile development.
+-> Now As a developer , our job is to divide the UI into managable components, manage the state 
+of the component and data passing between them and routing should be managed.
+
+Where REACT COMES INTO PICTURE?
+1. React is a library not a framework
+2. So , Inversion of control is prevented.
+3. React is declarative , But HTML is also declarative , yes but react lets to declare UI of component and 
+state , rendering is handled by its class methods.
+4. Code maintainability is high in react and developer have to write minimal code to make complex UI
+5. TO DO LIST made in javascript was complex but in react its a very simple application.
+6. Concept of Virtual DOM and how rendering takes place in react is very complex behind the scenes
+
+-> Working directly with the DOM, as in the example oF TODO LIST, requires understanding many things about 
+how the DOM works: how to make elements; how to change their properties; how to put elements 
+inside of each other; how to get them on the page. 
+
+-> None of this code actually handles user interactions, or addresses adding or deleting a task.
+ 
+-> If we add those features, we have to remember to update our UI at the right time and in the right way.
+
+-> JavaScript frameworks were created to make this kind of work a lot easier — they exist to 
+provide a "DEVELOPER EXPERIENCE". 
+
+-> They "don't bring brand-new powers to JavaScript"; they give you easier access to JavaScript's 
+powers so you can build for today's web.
+
+-> So , Something like appendChild , createElement , all these DOM API is abstracted by these frameworks
+and libraries.
+
+-----------------LET'S DEEP DIVE INTO REACT LIBRARY------------------
