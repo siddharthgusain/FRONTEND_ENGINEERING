@@ -1,0 +1,12 @@
+-> https://indepth.dev/posts/1008/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react
+-> https://roadmap.sh/react
+-> https://betterprogramming.pub/react-18-has-been-released-implement-mini-react-in-400-lines-of-code-837559761758
+-> https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060
+-> https://www.youtube.com/watch?v=i793Qm6kv3U --> React rednering
+-> https://dev.to/riddhiagrawal001/create-react-app-without-create-react-app-2lgd
+-> https://www.innominds.com/blog/create-a-react-app-without-create-react-app
+-> https://medium.com/edonec/how-to-create-a-react-app-without-create-react-app-aa0b5adba4cd
+-> https://dev.to/thesanjeevsharma/just-redux-the-complete-guide-44d5
+-> https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/
+-> https://jser.dev/react/2022/03/16/how-react-scheduler-works.html
+-> https://javascript.plainenglish.io/theres-no-magic-in-react-52d8d91a92a3

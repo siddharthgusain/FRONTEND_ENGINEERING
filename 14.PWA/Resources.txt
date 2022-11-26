@@ -1,0 +1,5 @@
+-> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing_workers
+-> https://www.youtube.com/watch?v=2Nt-ZrNP22A
+-> https://www.youtube.com/watch?v=PjiXkJ6P9pQ
+-> https://www.youtube.com/watch?v=7Rrv9qFMWNM
+-> https://www.youtube.com/watch?v=ipNW6lJHVEs

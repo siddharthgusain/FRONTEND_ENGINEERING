@@ -1,1 +1,7 @@
-https://developer.mozilla.org/en-US/docs/Web/Performance
+-> https://developer.mozilla.org/en-US/docs/Web/Performance
+-> https://www.youtube.com/watch?v=HF1luRD4Qmk
+-> https://www.youtube.com/watch?v=gTVpBbFWry8
+-> https://developer.chrome.com/docs/devtools/overview/
+-> https://www.youtube.com/playlist?list=PLNYkxOF6rcICVl6Vb-AFlw81bQLuv6a_P
+-> https://www.youtube.com/playlist?list=PLYxzS__5yYQmaTY08Z93Kuy7Dg41G4rqX
+-> https://www.youtube.com/watch?v=reztLS3vomE
