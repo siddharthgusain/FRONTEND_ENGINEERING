@@ -1,0 +1,84 @@
+.pageTitle {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.filterTile {
+    margin: 8px;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid burlywood;
+    background-color: white;
+    color: brown;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.filterTile:hover {
+    background-color: bisque;
+    color: black;
+}
+
+.selectedFilter {
+    background-color: burlywood;
+    color: black;
+}
+
+.listItems {
+    margin: 10px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 40%;
+}
+
+.imgContainer {
+    min-width: 250px;
+    height: 150px;
+    border: 2px solid burlywood;
+    border-radius: 8px;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.itemDesc {
+    padding: 10px;
+}
+
+.itemDescHeading span:nth-child(1) {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itemDescHeading span:nth-child(2) {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+}
+
+.itemText p {
+    width: 100%;
+    margin: 10px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}

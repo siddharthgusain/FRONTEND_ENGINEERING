@@ -33,7 +33,8 @@ function withRetryHandling(callback, {
             }
         };
 
-        return retry();
+        const promise = retry();
+        return promise;
     };
 }
 
