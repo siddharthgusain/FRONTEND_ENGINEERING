@@ -1,0 +1,16 @@
+1. Divide the UI carefully into managable and scalable components
+2. Manage Lifecycle of a single component
+3. Handle Routing between Pages 
+4. Manage Data/state and how to pass between Pages
+
+
+-> React component is just a plane javascript object which are "IMMUTABLE";
+
+-> React elements are immutable. Once you create an element, you can’t change its children 
+or attributes. 
+
+-> An element is like a single frame in a movie: it represents the UI at a certain point in time.
+
+----------------UPDATE ONLY THAT IS NECESSARY--------------------
+-> React DOM compares the element and its children to the previous one, 
+and only applies the DOM updates necessary to bring the DOM to the desired state.
