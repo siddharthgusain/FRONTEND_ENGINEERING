@@ -17,7 +17,7 @@ console.log("-------------WELCOME TO REACT--------------------");
 
 class LikeButton extends React.Component {
     constructor(props) {
-        console.log(props);
+        console.log("INSIDE CONSTRUCTOR PROPS", props);
         super(props);
         this.state = { liked: false };
     }
@@ -42,6 +42,7 @@ const root = window.ReactDOM.createRoot(domContainer);
 
 root.render(window.React.createElement(LikeButton)); // we are calling function "e" and passinf the result of createElement to render()
 
+console.log("CREATED DOM ELEMENT", React.createElement(LikeButton));
 //-----------------THIS IS OUR FIRST REACT COMPONENT----------------------------
 /*
 WE will create React App with build tools and will use more simpler syntax for developers
