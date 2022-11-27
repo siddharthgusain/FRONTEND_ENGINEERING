@@ -1,18 +1,19 @@
--> Lets talk about Single page application first
+-> Lets talk about Single page application(SPA) first.
 
 -> An SPA (Single-page application) is a web app implementation that loads only a single web document, 
 and then updates the body content of that single document via JavaScript APIs such as 
 XMLHttpRequest and Fetch when different content is to be shown.
 
--> SO in Single page application state , route are managed on client side by javascript.
+-> So in Single page application state , route are managed on client side by javascript.
 
 Why Need of component based architecture?
 -> Component based architecture is easy to reuse and maintain
 -> Dividing UI into components can make the development easy and fast
--> Because of Component based architecture , Website got converged to WEB APPS and architecture
-is similar to Native mobile development.
+-> Because of Component based architecture , Website got converged to WEB APPS and architecture of website gets more converged
+to mobile application that is similar to Native mobile development.
 -> Now As a developer , our job is to divide the UI into managable components, manage the state 
 of the component and data passing between them and routing should be managed.
+-> As a developer we declare UI , not care about how it is attached to the DOM(handled by libray or framework)
 
 Where REACT COMES INTO PICTURE?
 1. React is a library not a framework

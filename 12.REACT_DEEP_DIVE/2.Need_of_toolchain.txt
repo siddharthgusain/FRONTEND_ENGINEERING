@@ -1,0 +1,13 @@
+-> As react is a library , we can just put the JS files inside HTML and use its classes and functions
+-> As the Web App grows its important to have a proper build/tool chain for:-
+1. Scaling to many files and components.
+2. Using third-party libraries from npm.
+3. Detecting common mistakes early.
+4. Live-editing CSS and JS in development.
+5. Optimizing the output for production by bundlers like webpack.
+
+1. CREATE_REACT_APP tool
+
+-> Create React App doesn’t handle backend logic or databases; it just creates a frontend 
+build pipeline, so you can use it with any backend you want. Under the hood, it uses 
+"BABEL AND WEBPACK", but you don’t need to know anything about them.
