@@ -29875,6 +29875,6 @@
 /*
 
 1. Wrapped in IIFE to avoid global pollution
-2. Present in window.ReactDOM indendifier
+2. Present in window.ReactDOM indentifier
 3. Data structures like map and set is being used
 */

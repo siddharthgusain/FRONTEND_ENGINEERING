@@ -3353,7 +3353,7 @@
 1. Everything is wrapped inside IIFE to avoid global scope pollution
 2. Symbol primtitive data type is being used a lot 
 3. Contains a large amount of function
-4. After this file gets loaded all the idendifeirs i.e varaibles and functions are present in your JS engine 
+4. After this file gets loaded all the idendifeirs i.e variables and functions are present in your JS engine 
 instance and our script file can use it to write smaller code in comparision to Vanilla JS
 
 */

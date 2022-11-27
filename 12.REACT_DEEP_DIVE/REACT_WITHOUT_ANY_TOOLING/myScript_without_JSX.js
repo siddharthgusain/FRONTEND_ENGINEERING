@@ -1,11 +1,12 @@
-// Now after loading both the scripts we have access to all the helper classes and functions from window object
 /*
+-> Now after loading both the scripts we have access to all the helper classes and functions from window object
+
 -> The same thing that we used to write in vanilla JS , we can do that in less lines of code with
 helper functions
 
 -> React is considered declarative because we only decalre UI , not render it to DOM
 -> Generally you will see , we don't really touch DOM API i.e document.getElementbyID type functions
--> In javscript we have to create and append element to DOM with DOM APIS and have tp focus a lot
+-> In javscript we have to create and append element to DOM with DOM APIS and have to focus a lot
 on creating and removing element , React takes care  of it using its helper function.
 */
 
@@ -43,6 +44,7 @@ const root = window.ReactDOM.createRoot(domContainer);
 root.render(window.React.createElement(LikeButton)); // we are calling function "e" and passinf the result of createElement to render()
 
 console.log("CREATED DOM ELEMENT", React.createElement(LikeButton));
+
 //-----------------THIS IS OUR FIRST REACT COMPONENT----------------------------
 /*
 WE will create React App with build tools and will use more simpler syntax for developers

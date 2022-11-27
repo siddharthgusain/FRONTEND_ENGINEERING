@@ -4,7 +4,7 @@
 4. Manage Data/state and how to pass between Pages
 
 
--> React component is just a plane javascript object which are "IMMUTABLE";
+-> React component is just a "plane javascript object" which are "IMMUTABLE";
 
 -> React elements are immutable. Once you create an element, you can’t change its children 
 or attributes. 
