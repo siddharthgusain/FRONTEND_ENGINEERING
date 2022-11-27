@@ -1,6 +1,6 @@
 -> https://roadmap.sh/react
--> https://indepth.dev/posts/1008/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react
 -> https://betterprogramming.pub/react-18-has-been-released-implement-mini-react-in-400-lines-of-code-837559761758
+-> https://indepth.dev/posts/1008/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react
 -> https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060
 -> https://www.youtube.com/watch?v=i793Qm6kv3U --> React rednering
 -> https://dev.to/riddhiagrawal001/create-react-app-without-create-react-app-2lgd

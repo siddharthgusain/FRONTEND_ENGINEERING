@@ -38,7 +38,7 @@ provide a "DEVELOPER EXPERIENCE".
 -> They "don't bring brand-new powers to JavaScript"; they give you easier access to JavaScript's 
 powers so you can build for today's web.
 
--> So , Something like appendChild , createElement , all these DOM API is abstracted by these frameworks
+-> So , Something like "appendChild" , "createElement" , all these DOM API is abstracted by these frameworks
 and libraries.
 
 -----------------LET'S DEEP DIVE INTO REACT LIBRARY------------------

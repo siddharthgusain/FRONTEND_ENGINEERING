@@ -1,0 +1,15 @@
+WHAT EXACTLY IS STATE ?
+1. State is internal property of a component which can change 
+2. Changing state rerenders the component
+3. State is similar to "props", but it is private and fully controlled by the component.
+
+IMPORTANT THINGS ABOUT "state" of a component
+-> this.state.name = "hello" // this will not call render() function of component , so no re-render
+-> Always use setState() as it tells react state gets changed and its needs to call render() of
+"this" or current object
+-> React may batch multiple setState() calls into a single update for performance.
+
+-> Because this.props and this.state may be updated "asynchronously", you should not rely on their 
+values for calculating the next state.(VVVV IMP)
+
+
