@@ -13,7 +13,7 @@ Why Need of component based architecture?
 to mobile application that is similar to Native mobile development.
 -> Now As a developer , our job is to divide the UI into managable components, manage the state 
 of the component and data passing between them and routing should be managed.
--> As a developer we declare UI , not care about how it is attached to the DOM(handled by library or framework)
+-> As a developer we declare UI , not care about how it is attached to the DOM(handled by library or framework using DOM API)
 
 Where REACT COMES INTO PICTURE?
 1. React is a library not a framework
