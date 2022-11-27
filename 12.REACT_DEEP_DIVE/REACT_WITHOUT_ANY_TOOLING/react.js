@@ -857,6 +857,7 @@
 
             return ReactElement(type, key, ref, self, source, ReactCurrentOwner.current, props);
         }
+
         function cloneAndReplaceKey(oldElement, newKey) {
             var newElement = ReactElement(oldElement.type, newKey, oldElement.ref, oldElement._self, oldElement._source, oldElement._owner, oldElement.props);
             return newElement;
