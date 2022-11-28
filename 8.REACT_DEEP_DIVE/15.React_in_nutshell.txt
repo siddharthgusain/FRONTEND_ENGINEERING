@@ -11,4 +11,8 @@ using render() call
 -> When state changes , again this element is constructed(React.createElement) with new state value 
 and other optimization is done by react to change it into actual Browser DOM.
 
+-> Instance render() function is called by react when state changes in case of class component
+, in case of functional component , the whole function is called , so any code inside function body
+will run again(We will discuss it more in Hooks and functional component).
+
 -> React internals will be discussed later in the sections.
