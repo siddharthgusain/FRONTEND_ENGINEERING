@@ -1,14 +1,14 @@
 1. Linters for error :- ESLINT
-2. Task Runner:- Npm scripts
+2. Task Runner:- NPM scripts
 3. Bundlers:- Webpack ,Vite
 
 -> npm scripts are command present in "script" key inside package.json
 
--> Can we use React library without using any bunlder or package like Create react app??
+-> Can we use React library without using any bundler or package like Create react app??
 
 -> Absolutely yes , just attach the whole minified JS of react library and load it into your HTML
 -> Now after react JS file is parsed, all classes and functions present inside it are available 
 to us as they get allocated space in JS engine Heap and now we can use it normally like any other 
 library.
 
--> Webpack runs on Node.js, a JavaScript runtime that can be used in computers and servers outside a browser environment.
+-> "Webpack script runs on Node.js", a JavaScript runtime that can be used in computers and servers outside a browser environment.
