@@ -5,9 +5,14 @@ WHAT EXACTLY IS STATE ?
 
 IMPORTANT THINGS ABOUT "state" of a component
 -> this.state.name = "hello" // this will not call render() function of component , so no re-render
+
 -> Always use setState() as it tells react state gets changed and its needs to call render() of
 "this" or current object
+
 -> React may batch multiple setState() calls into a single update for performance.
+
+-> Also, since setState() automatically "merges a partial state" into the current state, 
+we only needed to "call it with the changed parts".
 
 -> Because this.props and this.state may be updated "asynchronously", you should not rely on their 
 values for calculating the next state.(VVVV IMP)
