@@ -1,0 +1,14 @@
+-> React is a library which provides you various functions and classes
+-> These functions can be used to develop component and let user focus on business logic rather than rendering UI
+-> React mantains its own Tree(VirtualDOM) and do the commits to actual DOM created by browser(using DOM API) by 
+using a process known as Reconcilation.
+-> DOM API like appendChild, createElement is used by React functions internally , "generally"
+developer don't use these inside their React App.
+
+-> Component instance(plain javscript object) is made using React.createElement() and render to parent 
+using render() call
+
+-> When state changes , again this element is constructed(React.createElement) with new state value 
+and other optimization is done by react to change it into actual Browser DOM.
+
+-> React internals will be discussed later in the sections.
