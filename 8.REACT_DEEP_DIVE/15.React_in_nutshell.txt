@@ -5,14 +5,17 @@ using a process known as Reconcilation.
 -> DOM API like appendChild, createElement is used by React functions internally , "generally"
 developer don't use these inside their React App.
 
--> Component instance(plain javscript object) is made using React.createElement() and render to parent 
+-> Component instance(plain javascript object) is made using React.createElement() and render to parent 
 using render() call
 
--> When state changes , again this element is constructed(React.createElement) with new state value 
-and other optimization is done by react to change it into actual Browser DOM.
+-> When state changes , again this element is constructed(React.createElement) with new state value and new UI element is 
+returned from the component and other optimization is done by react to change it into actual Browser DOM.
 
 -> Instance render() function is called by react when state changes in case of class component
 , in case of functional component , the whole function is called , so any code inside function body
 will run again(We will discuss it more in Hooks and functional component).
+
+-> We can consider REACTDOM render() call as Recursive call till you reach leaves of 
+DOM tree , it used recursion internally. 
 
 -> React internals will be discussed later in the sections.
