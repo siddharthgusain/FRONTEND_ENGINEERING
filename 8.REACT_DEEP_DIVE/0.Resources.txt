@@ -11,3 +11,4 @@
 -> https://jser.dev/react/2022/03/16/how-react-scheduler-works.html
 -> https://javascript.plainenglish.io/theres-no-magic-in-react-52d8d91a92a3
 -> https://www.youtube.com/watch?v=f2mMOiCSj5c
+-> https://github.com/Bogdan-Lyashenko/Under-the-hood-ReactJS

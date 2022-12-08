@@ -21,10 +21,10 @@ function promiseAllPolyfill(promisesArray) {
 
     const promise = new Promise(
         (resolve, reject) => {
-            promisesArray.forEach((item) => {
-                item.then((response) => {
+            promisesArray.forEach((promise, index) => {
+                promise.then((response) => {
                     totalPromiseTobeResolved = totalPromiseTobeResolved - 1;
-                    resolvedPromiseArray.push(response);
+                    resolvedPromiseArray[index] = response; // don't use push as it will not maintain the input order
                     if (totalPromiseTobeResolved === 0)
                         resolve(resolvedPromiseArray);
                 }).catch((err) => {
