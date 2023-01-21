@@ -2,3 +2,12 @@
 2. https://www.youtube.com/watch?v=DqMFX91ToLw --> Best JS Talk
 3. https://medium.com/@zlatkov --> Best JS articles
 4, https://developer.mozilla.org/en-US/docs/Web/JavaScript --> JS BEST GUIDE
+
+
+
+
+
+
+
+
+https://dev.to/maximization/understanding-async-await-22o6
