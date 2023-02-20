@@ -5,3 +5,6 @@
 -> https://www.youtube.com/watch?v=RLtyhwFtXQA
 -> https://www.youtube.com/watch?v=_xKCi5OI_Mg
 -> https://www.youtube.com/watch?v=KD9xWuprK-4
+
+-> https://en.wikipedia.org/wiki/Web_server
+-> https://en.wikipedia.org/wiki/Common_Gateway_Interface
