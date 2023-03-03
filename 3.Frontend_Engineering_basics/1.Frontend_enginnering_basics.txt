@@ -6,8 +6,8 @@
 3. Managing state of application(Data + Storage and passing data between various UI components)
 4. Navigation and Routing between screens
 
--> As a developer we only declare the UI using html or xml or any other markup langauge , how it is painted into pixels is 
-taken care by browser and operating system.
+-> As a developer we only declare the UI using html or xml or any other markup language , how it is painted into pixels is 
+taken care by browser and operating systemwith help of GPU and graphics API LIKE OPENGL
 
 -> We only define callbacks and attach it to UI nodes , but these callbacks are called by browser or operating system in
 response to events and interrupts.
@@ -15,7 +15,7 @@ response to events and interrupts.
 -> We as a developer decides how to pass and store data(Cookies,IndexDB,Localstorage etc) , how it is stored is done by browser
 and operating system.
 
--> Developer job is more on the declarative side and how to architecure the source code for scalability and maintainability.
+-> Developer job is more on the "DECLARATIVE SIDE" and how to architecture the source code for scalability and maintainability.
 
 -> Frontend is the product a user interacts with so the focus should be high on UI and UX along with performance of application.
 -> Frontend application is what user sees i.e data consumed from API shown in displays and user interacts with the application by 
