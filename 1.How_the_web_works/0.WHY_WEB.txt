@@ -8,6 +8,7 @@ is very less.
 code base.
 5. Introduction of Web Assembly , PWA makes web even more powerfull
 6. Any product which wants to reach more users will be made as an Web application.
+7. Browsers have matured and captured almost all type of devices.
 
 -> Underlying architecture of web makes it independent of hardware and OS.
 
@@ -20,7 +21,7 @@ ANS:- An small example would be Chrome application.
 
 Chrome Application is build for different operating system but why ?
 1. First dependency is system calls, each application made use of lots of system calls which is 
-different for differnt kernels .
+different for different kernels and also different GUI TOOLKIT
 2. Second lets talk about Chip architecture (RISC and CISC). Mobile devices Uses ARM(RISC) architecture
 Desktop devices have Chips with x86(CISC) architecture. 
 3. Each operating system is made for different architecture.
@@ -29,6 +30,7 @@ code will be written for different operating system.
 
 -> WEB Application on the other hand runs on top of browser , browser are platform dependent but
 web application is not platform dependent, its more of browser dependent.
+
 -> Majority of browsers introduce features together so the support is almost same in major browsers
 like mozilla, chrome , safari , opera etc , they make features according to "W3C standards".
 
