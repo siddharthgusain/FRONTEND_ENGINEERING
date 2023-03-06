@@ -4,7 +4,7 @@ function square(number) {
 }
 
 /* 
-Parameters are essentially passed to functions by "value" — so if the code within the body 
+Primitive Parameters are essentially passed to functions by "value" — so if the code within the body 
 of a function assigns a completely new value to a parameter that was passed to the function, 
 the change is not reflected globally or in the code which called that function.
 */

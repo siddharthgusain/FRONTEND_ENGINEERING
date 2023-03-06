@@ -41,3 +41,12 @@ const symb2 = Symbol('a');
 console.log("symb1", symb1);
 console.log("symb2", symb2);
 console.log(Symbol('a') === Symbol('a')) // false , as both are unique
+
+// Symbol is generally used inside framework like React.
+// Generally used for object properties to be unique and prevent collision
+// Can't be used with "new" operator
+// Symbol properties are not "enumerable"
+
+/*
+$$typeof: Symbol(react.element)
+*/
