@@ -1,12 +1,12 @@
-var obj = {} ;
+var obj = {};
 // obj is variable first but because we use {} it inherites from Object.prototype
 // obj.__proto__ === Object.prototype
 // obj contains all properties that is exposed by "Object" class in its "prototype" property
 
 obj = {
-    name:"sid",
-    age:20,
-    display:function () {
+    name: "sid",
+    age: 20,
+    display: function () {
         console.log(this.name)
     }
 };
@@ -21,9 +21,9 @@ console.log(obj['name']); // bracket notation
 // constructors and object instances
 
 // normal function "Person"
-function Person(name) { 
+function Person(name) {
     this.name = name;
-    this.display = function() {
+    this.display = function () {
         console.log(this);
     };
 }
@@ -32,27 +32,27 @@ function Person(name) {
 var obj1 = new Person("sid"); // this is weird right?
 var obj2 = new Person("tushar");
 
-// obj1 and obj2 were simple variable before inintializing then with new
-// after new they are objects 
+// obj1 and obj2 were simple variable before inintializing them with new
+// after new operator they are objects 
 obj1.display();
 obj2.display();
 
 
 // creating object instances using Object() constructors
-var obj3 = new  Object(); // creating empty object
+var obj3 = new Object(); // creating empty object
 var obj4 = new Object({
-    name:"messi",
-    age:22
+    name: "messi",
+    age: 22
 });
 
 console.log(obj3);
 console.log(obj4);
 
 // using create method to built new object using existing object
- var obj5 = Object.create(obj4);
+var obj5 = Object.create(obj4);
  // obj5.__proto__ === obj4
- 
- 
+
+
 
 
 

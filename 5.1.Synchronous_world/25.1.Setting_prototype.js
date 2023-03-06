@@ -26,8 +26,8 @@ const sid1 = new Person("sid with assign");
 sid1.greet(); // greet is available as Person.prototype contains it (assign does that)
 
 /* 
-Properties that are defined directly in the object, like name here, are called own properties,
- and you can check whether a property is an own property using the static Object.hasOwn() method
+Properties that are defined directly in the object, like "name" here, are called own properties,
+and you can check whether a property is an own property using the static Object.hasOwn() method
 */
 
 console.log(Object.hasOwn(sid1, "name")); // true as name is own property of sid1

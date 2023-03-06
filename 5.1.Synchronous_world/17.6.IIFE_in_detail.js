@@ -63,7 +63,7 @@ soon as it is defined.
         }
     )();
 
-console.log(firstVariable) // no defined
+console.log(firstVariable) // not defined
 // firstVariable and secondVariable will be discarded after the function is executed.
 
 //---------------------2.MODULE DESIGN PATTERN-----------------
@@ -112,4 +112,4 @@ console.log(modulePattern.privateVariable) // undefined
         logger();
     })()
 
-    // NOTE :- If you see the bundle spitted by webpack , it is actually an IIFE used to prevent global pollution
+    // NOTE :- If you see the bundle spitted by "WEBPACK" , it is actually an IIFE used to prevent global pollution

@@ -1,4 +1,4 @@
-// this has various meaning in different context , it genrally represents current calling object
+// this has various meaning in different context , it generally represents current calling object
 // Note:- functions are also objects in JS , so it could be current calling function
 
 /*
