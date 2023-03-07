@@ -3,8 +3,8 @@ methods, called "EVENT HANDLERS routines. These routines handle the events to wh
 will respond. For example, a single left-button mouse-click on a command button in a GUI program may 
 trigger a routine that will open another window, save data to a database or exit the application. 
 
-Many modern-day programming environments provide the programmer with event templates, allowing the 
-programmer to focus on writing the "EVENT HANDLERS"
+************* Many modern-day programming environments provide the programmer with event templates, allowing the 
+programmer to focus on writing the "EVENT HANDLERS" ***********
 
 -> The second step is to bind event handlers to events so that the correct function is called when 
 the event takes place. 

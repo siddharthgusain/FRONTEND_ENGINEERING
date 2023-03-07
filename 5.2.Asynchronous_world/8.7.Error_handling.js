@@ -9,7 +9,7 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
     .catch((err) => {
         console.log(err);
     });
-// catch will be called if any of the promise in the chain fails
+// catch will be called if "ANY" of the promise in the chain fails
 
 fetch('https://jsonplaceholder.typicode.com/todo')
     .then((response) => {
@@ -18,6 +18,6 @@ fetch('https://jsonplaceholder.typicode.com/todo')
         }
         return response.json()
     }).catch((err) => {
-        console.log(err); // will catch error occured before this catch block "ANYWHERE ABOVE"
+        console.log(err); // will catch error occured "BEFORE THIS" catch block "ANYWHERE ABOVE"
     })
     .then((data) => console.log(data)) // this will still be run and will give "UNDEFINED"

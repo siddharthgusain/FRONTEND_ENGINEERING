@@ -7,7 +7,7 @@ fetchPromise.then((response) => {
     if (!response.ok) {
         throw new Error(`HTTP error: ${response.status}`);
     }
-    const jsonPromise = response.json(); // convert the response JSON string to js object
+    const jsonPromise = response.json(); // convert the response JSON string to JS OBJECT
     console.log(jsonPromise);
     jsonPromise.then((data) => {
         console.log(data);

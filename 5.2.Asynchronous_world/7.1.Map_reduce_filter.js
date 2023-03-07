@@ -31,7 +31,7 @@ const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const output3 = arr2.reduce((acc, curr) => {
     return acc + curr;
 }, 10);
-// second arugument is accumulator initial value
+// second arguement is accumulator initial value
 // return a single value
 
 console.log(output3); // 65

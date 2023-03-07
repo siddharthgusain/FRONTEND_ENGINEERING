@@ -21,7 +21,7 @@ the HTML document loaded in the current tab, or the entire browser window.
 
 */
 
-const h1 = window.document.querySelector('h1'); // takes ms to compute
+const h1 = window.document.querySelector('h1'); // takes milliseconds to compute
 /*  
 Note:- DOM API is SYNCHRONOUS and there are no callbacks , JS engine moves to next line 
 after executing this current line above.

@@ -1,4 +1,4 @@
--> JS Engine is a code that is part of renderer process that we studied earlier
+-> JS Engine is a code that is part of "RENDERER PROCESS" that we studied earlier
 -> JS engine are many like spidermonkey in firefox, V8 in chrome etc.
 -> V8 is considered fastest among them
 

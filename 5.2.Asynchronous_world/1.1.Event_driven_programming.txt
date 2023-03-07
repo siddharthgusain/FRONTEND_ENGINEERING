@@ -1,7 +1,8 @@
 -> In computer programming, event-driven programming is a programming paradigm in which the flow of 
 the program is determined by events such as user actions (mouse clicks, key presses), sensor outputs,
-or "message passing from other programs or threads". Event-driven programming is the dominant 
-paradigm used in "Graphical User Interfaces and other applications (e.g., JavaScript web applications)
+or "message passing from other programs or threads". 
+
+->Event-driven programming is the dominant paradigm used in "Graphical User Interfaces and other applications (e.g., JavaScript web applications)
 that are centered on performing certain actions in response to user input. 
 
 -> This is also true of programming for device drivers (e.g., P in USB device driver stacks[1]).
