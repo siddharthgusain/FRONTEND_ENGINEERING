@@ -17,7 +17,7 @@ of ways to organize code into modules, special libraries to load modules on dema
 To name some (for historical reasons):
 
 1. AMD – one of the most ancient module systems, initially implemented by the library require.js.
-2. CommonJS – the module system created for Node.js server.
+2. CommonJS(cjs) – the module system created for Node.js server.
 3. UMD – one more module system, suggested as a universal one, compatible with AMD and CommonJS.
 
 -> The language-level module system appeared in the standard in "2015", gradually evolved 

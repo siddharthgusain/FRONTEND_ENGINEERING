@@ -1,3 +1,5 @@
 -> Import statement leads to http request to get the module imported
+-> Variables and functions have "MODULE" scope and can be accessed inside module only unless they another
+exported.
 -> We can see in devtools that imported module has "Module" scope and is not attached to
 global scope(vvvvvv. important)
