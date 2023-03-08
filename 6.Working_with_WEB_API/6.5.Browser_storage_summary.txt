@@ -4,3 +4,4 @@
 -> Sessions storage
 3. IndexedDB:- Complex "NOSQL" database in browser
 4. Cache API:-"Generally" used along with service worker
+5. WEB SQL:- Relational database which uses variant of SQL.
