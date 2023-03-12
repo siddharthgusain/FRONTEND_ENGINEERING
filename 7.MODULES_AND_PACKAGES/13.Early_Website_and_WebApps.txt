@@ -1,6 +1,6 @@
 -> Previously Web application were known as "website"
 -> Bunch of html pages linked with anchor link tag
--> Each page has its own css and javscript
+-> Each page has its own css and javascript
 -> Navigating to different page loads the page from server as a seperate network request(GET) along with its other assets.
 -> ALSO THESE APPLICATION KNOWN AS MULTI PAGE APPLICATION(MPA);
 

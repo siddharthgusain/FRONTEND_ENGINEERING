@@ -4,7 +4,7 @@
 module bundlers.
 
 -> In real-life, browser modules are rarely used in their “raw” form. Usually, we bundle 
-them together with a special tool such as Webpack and deploy to the production server.
+them together with a special tool such as "Webpack" and deploy to the production server.
 
 -> At its core, Module Bundlers is a "STATIC MODULE BUNDLER" for modern JavaScript applications. 
 -> When webpack processes your application, it internally builds a "DEPENDENCY GRAPH" from one or 

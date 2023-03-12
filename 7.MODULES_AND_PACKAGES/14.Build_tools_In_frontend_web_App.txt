@@ -11,7 +11,10 @@
 to us as they get allocated space in JS engine Heap and now we can use it normally like any other 
 library.
 
--> "Webpack script runs on Node.js", a JavaScript runtime that can be used in computers and servers outside a browser environment.
+-> "Webpack is just another JS package that runs on Node.js", a JavaScript runtime that can be used 
+in computers and servers outside a browser environment.
+
 -> Webpack scripts are normal JS file which uses file handling to build the project using the configuration provided 
-inside webpack-config.json file 
+inside "webpack-config.json" file 
+
 -> We will explore module bundlers further sections.
