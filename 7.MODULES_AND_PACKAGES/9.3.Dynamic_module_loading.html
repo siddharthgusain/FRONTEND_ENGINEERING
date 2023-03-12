@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DYNAMIC MODULE LOADING</title>
+    <script>
+        let promise = import("./9.4.Dynamic_module.js");
+        promise.then((module) => {
+            console.log(module);
+            console.log(module.ConsoleSomething())
+        })
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
