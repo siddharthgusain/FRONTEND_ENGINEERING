@@ -1,0 +1,4 @@
+-> npm is js package which runs on top of nodejs executable environment
+-> npm <command>
+
+-> npm is JS file and "<command>" is command line argument taken by npm-cli.js file.
