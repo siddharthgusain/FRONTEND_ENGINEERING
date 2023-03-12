@@ -27,7 +27,7 @@ function makeRangeIterator(start = 0, end = Infinity, step = 1) {
             let result;
             if (nextIndex < end) { // if iteration not completed yet
                 result = {
-                    value: nextIndex,
+                    value: nextIndex, // closure is used here
                     done: false
                 };
                 nextIndex += step;
