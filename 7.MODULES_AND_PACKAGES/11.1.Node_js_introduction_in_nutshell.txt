@@ -1,0 +1,16 @@
+-> Nodejs is application written in C++ which contains chrome V8 JS engine that interprets JS files.
+-> JS ENGINE + API => Environment
+
+1. JS Engine + Browser API in C++ => Browser Environment
+2. JS ENGINE + Node API => Nodejs Environment
+3. JS ENGINE + Deno API => Denojs Environment
+
+-> Each environment has different types of "events" like browser has DOM events , nodejs has 
+http events etc.
+
+-> JS files are just stream of text which can be parsed and interpreted by JS engine.
+
+-> npm is a package i.e multiple modules written in javascript which runs on top of nodejs softwares.
+
+-> Nodejs path is present in global environment variables of any operating system.
+
