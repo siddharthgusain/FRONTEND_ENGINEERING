@@ -29869,7 +29869,7 @@
 
 })));
 
-// window.ReactDOM = "lol"; // DON'T DO THIS , you will over write ReactDOM identifer attached to window object ny the above IIFE
+// window.ReactDOM = "lol"; // DON'T DO THIS , you will over write ReactDOM identifer attached to window object by the above IIFE
 
 //  OBSERVATION
 /*

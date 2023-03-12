@@ -35,8 +35,8 @@ console.log(gen.next().value);
 console.log(gen.next().value);
 console.log(gen.next().done);
 
-
-// Creating an user defined iterable
+// By default Object are not iterable
+// Creating an user defined iterable object
 const myIterable = {
     *[Symbol.iterator]() {
         yield 1;
@@ -45,6 +45,7 @@ const myIterable = {
     },
 };
 
+// Using for..of loop for custom iterable object
 for (const value of myIterable) {
     console.log(value);
 }
@@ -56,4 +57,5 @@ console.log([...myIterable]);
 # Built-in iterables
 -> String, Array, TypedArray, Map and Set are all built-in iterables, because their "prototype 
 objects" all have a "Symbol.iterator" method.
+-> Objects are not iterable
 */
