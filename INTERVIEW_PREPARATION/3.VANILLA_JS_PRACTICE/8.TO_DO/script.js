@@ -234,4 +234,7 @@ or framework already.
 -> Development time and maintainability of code with vanilla JS is not a good experience
 -> Each framework or library is made by keeping "Software Design Principles in Mind" and also uses different design pattern
 already.
+-> Also debugging is hard if we write vanilla JS in single file
+-> Dividing the whole application into multiple Modules is important for code scalability
+and maintainability
 */
