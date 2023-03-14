@@ -23,7 +23,7 @@ obj.printFullName.call(obj1, "I am Tushar", "I like games");
 // "this" points to first arguement passed to call function
 /*
 call function is used to call a function which may not be part of object , 
-so you borrow the function from other object
+so you "BORROW" the function from other object
 */
 
 function greeting() {
