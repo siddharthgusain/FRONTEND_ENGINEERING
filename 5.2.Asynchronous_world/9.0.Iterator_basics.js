@@ -23,7 +23,7 @@ function makeRangeIterator(start = 0, end = Infinity, step = 1) {
     let iterationCount = 0;
 
     const rangeIterator = {
-        next() {
+        next: function () {
             let result;
             if (nextIndex < end) { // if iteration not completed yet
                 result = {
