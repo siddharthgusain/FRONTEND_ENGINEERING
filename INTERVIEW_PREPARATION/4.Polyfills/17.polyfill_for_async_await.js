@@ -4,13 +4,13 @@
 -> Async await can be created using Generators
 */
 
-// async function asyncAwait() {
-//     const resolvedPromise = await fetch('https://jsonplaceholder.typicode.com/todos/1');
-//     const data = await resolvedPromise.json();
-//     console.log(data);
-// }
+async function asyncAwait() {
+    const resolvedPromise = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+    const data = await resolvedPromise.json();
+    console.log(data);
+}
 
-// asyncAwait();
+asyncAwait();
 
 
 // custom async await
