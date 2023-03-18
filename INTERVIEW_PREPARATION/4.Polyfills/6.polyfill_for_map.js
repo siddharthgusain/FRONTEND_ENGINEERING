@@ -6,6 +6,8 @@ let output = input.map((item, index) => {
     return item * index;
 });
 console.log(output);
+
+
 // map polyfill
 
 Array.prototype.mapPolyfill = function (callback) {

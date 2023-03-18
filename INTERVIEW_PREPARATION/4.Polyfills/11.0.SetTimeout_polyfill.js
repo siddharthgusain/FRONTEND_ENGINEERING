@@ -1,14 +1,3 @@
-// lets create a sleep() implementation
-
-function sleep(delay) {
-    let startTIme = Date.now();
-
-    while (Date.now() < startTIme + delay);
-}
-
-sleep(5000);
-
-
 // custom settimeout and cleartimeout with IIFE to avoid global scope pollution
 (function () {
     // List for maintaining callbacks corresponding to their id's
@@ -17,7 +6,7 @@ sleep(5000);
     // generates a new id for every mySetTimeout call
     function generateNewId() {
         var r = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
-        while (timers.hasOwnProperty(r)) { // check weather the id already exists
+        while (timers.hasOwnProperty(r)) { // check whether the id already exists
             r = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
         }
         return r;
@@ -25,6 +14,7 @@ sleep(5000);
 
 
     function check() {
+        console.log("CHECK FUNCTION IS CALLED");
         var t = Date.now();
         // loop over all the timers
         for (var timerId in timers) {
@@ -47,7 +37,7 @@ sleep(5000);
         // add it to the list of timers
         timers[newId] = {
             callback: callback,
-            time: Date.now() + delay // add the time after which callback needs to be executed
+            time: Date.now() + delay // add the time after which callback needs to be executed from current time
         };
 
         // return the id to the consumer for referencing it for later use.

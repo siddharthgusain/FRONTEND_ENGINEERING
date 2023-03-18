@@ -57,5 +57,5 @@ console.log([...myIterable]);
 # Built-in iterables
 -> String, Array, TypedArray, Map and Set are all built-in iterables, because their "prototype 
 objects" all have a "Symbol.iterator" method.
--> Objects are not iterable
+-> Objects are not iterable by default
 */

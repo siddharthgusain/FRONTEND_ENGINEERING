@@ -1,4 +1,7 @@
 // One liner PIPE
+pipeOneLiner = (...fns) => x => fns.reduce((v, f) => f(v), x)
+
+
 pipe = (...functions) => (value) => {
     debugger;
     return functions

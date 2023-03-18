@@ -3,9 +3,10 @@ finally reaches destination machine
 
 -> Segmentation , fragmentation , Is being done at OSI layers respectively.
 
--> Server machine has its own hardware(RAM,NIC,CPU,HDD) and operating system,
+-> Server machine has its own hardware(RAM,NIC,CPU,HDD) and operating system which is different OS that is present in
+personal computers.
 
--> Server can have an application process running to handle request (Backend engineering).
+-> Server can have an application process running to handle request like nodejs or spring based application(Backend engineering).
 
 -> Note:- Server could have multiple layers of abstraction , right now for a frontend application ,
 server takes request , process and send data response.(Further details will be in backend Engineering).

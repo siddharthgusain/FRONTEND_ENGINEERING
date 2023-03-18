@@ -25,5 +25,5 @@ let obj = {
 }
 
 print.callPolyfill(obj, "hello", " world");
-console.log(obj); // if we see it actually mutate the original object
+console.log(obj); // if we see it doesn't mutate the original object as we used deep copy with JSON methods
 
