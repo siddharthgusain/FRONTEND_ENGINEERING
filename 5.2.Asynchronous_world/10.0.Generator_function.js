@@ -38,7 +38,7 @@ console.log(gen.next().done);
 // By default Object are not iterable
 // Creating an user defined iterable object
 const myIterable = {
-    *[Symbol.iterator]() {
+    [Symbol.iterator]: function* () { // key is [Symbol.iterator] and value is Genrator function
         yield 1;
         yield 2;
         yield 3;

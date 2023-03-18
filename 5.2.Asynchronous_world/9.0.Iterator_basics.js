@@ -77,19 +77,20 @@ console.log(iterator.next().value); // 1
 // USING INBUILT ITERATOR FUNCTION INSIDE ARRAY OBJECT
 var nums = [1, 5, 16];
 
-var iter = nums[Symbol.iterator](); // Symbol.iterator is defined inside "Array.prototype"
+var nextFunction = nums[Symbol.iterator]; // Symbol.iterator is defined inside "Array.prototype"
+var arrayIterator = nextFunction();
 
-iter.next(); // {value: 1, done: false}
-iter.next(); // {value: 5, done: false}
-iter.next(); // {value: 16, done: false}
-iter.next(); // {value: undefined, done: true}
+arrayIterator.next(); // {value: 1, done: false}
+arrayIterator.next(); // {value: 5, done: false}
+arrayIterator.next(); // {value: 16, done: false}
+arrayIterator.next(); // {value: undefined, done: true}
 
 /*
 ----------------DESCRIPTION OF ABOVE CODE---------------
 -> A variable iter is declared and assigned an expression. This expression is nums[Symbol.iterator](). 
 The way it evaluates is described as follows:
 
--> The Symbol.iterator returns a symbol which is then first searched on the nums object 
+-> The "Symbol.iterator" returns a symbol which is then first searched on the nums object 
 (remember that an array is also an object and therefore can also have properties).
 
 -> Since there is no match found for the symbol on nums, searching shifts to the prototype 

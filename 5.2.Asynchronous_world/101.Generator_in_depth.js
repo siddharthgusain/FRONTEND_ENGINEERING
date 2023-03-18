@@ -15,7 +15,7 @@ var seq = sequence();
 console.log(seq);
 
 /*
--> When sequence() is called in line 7, the interpreter realises that it is a generator 
+-> When sequence() is called , the interpreter realises that it is a generator 
 function's call and likewise "returns an iterator right away" - the function's body isn't 
 executed to even a single percent.
 
