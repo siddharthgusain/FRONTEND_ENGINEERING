@@ -5,6 +5,7 @@ import { exportedFunction } from "./Module.js";
 // }
 
 let i = exportedFunction();
-console.log(i); // "i" is not exported from Module.js so not accessible here because of Module scope.
+console.log(i);
+console.log(j); // "j" is not exported from Module.js so not accessible here because of Module scope.
 
 //NOTE:- We can't redeclare same function that was in module

@@ -33,7 +33,8 @@ are also supported.
             -> Unused exports removed (“tree-shaking”).
             -> Development-specific statements like console and debugger removed.
             -> Modern, bleeding-edge JavaScript syntax may be transformed to older one with similar functionality using Babel.
-            -> The resulting file is minified (spaces removed, variables replaced with shorter names, etc).
+            -> The resulting file is minified (spaces removed, indentifier like varibales and functions replaced with shorter names, etc).
+5. It supports various plugins as well like babel , Sass etc.
 
 -> To understand why you should use webpack, let's recap how we used JavaScript on the web before bundlers were a thing.
 

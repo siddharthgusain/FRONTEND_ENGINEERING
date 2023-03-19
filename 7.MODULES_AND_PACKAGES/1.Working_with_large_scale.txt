@@ -24,5 +24,6 @@ the use of CommonJS.
 
 -> The language-level module system appeared in the standard in "2015", gradually evolved 
 since then, and is now supported by all major browsers and in Node.js. 
-So we’ll study the modern JavaScript modules from now on.
+
+-> So we’ll study the modern JavaScript modules from now on.
 

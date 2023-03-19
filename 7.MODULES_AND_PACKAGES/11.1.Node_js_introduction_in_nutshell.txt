@@ -12,5 +12,6 @@ http events etc.
 
 -> npm is a package i.e multiple modules written in javascript which runs on top of nodejs softwares.
 
--> Nodejs path is present in global environment variables of any operating system.
+-> Nodejs path is present in global environment variables of any operating system, that is why it can
+be directly executed through shell as shell gets it path from "SYSTEM ENVIRONMENT VARIABLES".
 

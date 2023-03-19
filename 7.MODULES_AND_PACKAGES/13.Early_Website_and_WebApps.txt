@@ -8,8 +8,10 @@
 reusable components and whole UI is rendered with JS 
 
 -> Angular comes into picture as first framework with component driven architecture
+
 -> This leads to website to be renamed as Web Apps and web application started working like native
 mobile application.
+
 -> Instead of server side navigation , everything started doing on client-side
 
 -> React became popular as a library

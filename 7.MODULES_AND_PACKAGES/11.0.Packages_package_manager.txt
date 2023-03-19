@@ -1,11 +1,11 @@
 -> A module is a single JavaScript file that has some reasonable functionality.
--> A package is a "directory" with "one or more MODULES" inside of it and a "package.json" file 
+-> A package is a "directory" with "zero or more MODULES" inside of it and a "package.json" file 
 which has metadata about the package.
 -> A package can be made available/open sourced by publishing it into some public registry like npm or yarn
 -> Package are useful to get already available code to use (Reusing function).
 
 -> In web ecosystem , we have a global package registry and to work with that registry we have
-command line softwares like "NPM" and "yarn"
+command line scripts like "NPM" and "yarn"
 
 -> npm or yarn consists of three distinct components:
 
@@ -16,7 +16,8 @@ command line softwares like "NPM" and "yarn"
 NPM:- NODE PACKAGE MANAGER
 YARN:- Yet Another Resource Negotiator (By facebook)-> faster than npm
 
--> "NPM" is written in JS and these JS program runs in nodejs software.
+-> "NPM" is written in JS and these JS program runs in nodejs software, so technically npm is another JS package
+which is default installed when we install nodejs software.
 
 -> ALL PACKAGES THAT WE INSTALL FROM REGISTRY ARE CREATED INSIDE "node_modules" i.e a gaint directory
 containing packages and dependencies.

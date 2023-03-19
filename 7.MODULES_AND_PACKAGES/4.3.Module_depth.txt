@@ -3,7 +3,7 @@
 -> Importing leads to HTTP GET request.
 -> Generally we don't ship this type code to browser , generally at development we write code
 in seperate modules i.e at source code level but before shipping we use some kind of 
-MODULE BUNDLER to bundle the files into single Js file that can be shipped
+MODULE BUNDLER to bundle the files into single Js or multiple bundle files that can be shipped
 
 -> Note:- We can still ship js application without module bundler but it has some disadvantages
 one is we have seen i.e "testing in local environment"

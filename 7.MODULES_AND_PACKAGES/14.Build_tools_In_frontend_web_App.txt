@@ -1,4 +1,4 @@
-1. Linters for error :- ESLINT
+1. Linters for error :- ESLINT, prettier
 2. Task Runner:- NPM scripts
 3. Bundlers:- Webpack ,Vite, rollup
 
@@ -9,12 +9,12 @@
 -> Absolutely yes , just attach the whole minified JS of react library and load it into your HTML
 -> Now after react JS file is parsed, all classes and functions present inside it are available 
 to us as they get allocated space in JS engine Heap and now we can use it normally like any other 
-library.
+custom function or class.
 
 -> "Webpack is just another JS package that runs on Node.js", a JavaScript runtime that can be used 
 in computers and servers outside a browser environment.
 
--> Webpack scripts are normal JS file which uses file handling to build the project using the configuration provided 
+-> Webpack scripts are normal JS file which uses "FILE HANDLING" to build the project using the configuration provided 
 inside "webpack-config.json" file 
 
 -> We will explore module bundlers further sections.
