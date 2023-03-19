@@ -54,3 +54,4 @@ retry().then(res => res.json()).then((data) => console.log(data));
 
 
 // THIS retry is simply polling the server and after some timeout we are calling the api call again thats it
+// This approach is used by libaries like facebook pixel , google tag manager which periodically send events to there server
