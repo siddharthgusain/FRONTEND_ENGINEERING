@@ -55,7 +55,21 @@ console.log([...myIterable]);
 /*
 
 # Built-in iterables
--> String, Array, TypedArray, Map and Set are all built-in iterables, because their "prototype 
+-> String, Array, TypedArray, Map and Set are all built-in iterables, because their "prototype
 objects" all have a "Symbol.iterator" method.
 -> Objects are not iterable by default
 */
+
+
+// USING VALUE OF YIELD STATEMENT to next YIELD
+function* generator1() {
+    const res = yield 1;
+    yield res + 10;
+    return;
+}
+
+
+const gen1 = generator1();
+
+gen.next(); // 1
+gen.next(1); // 1 + 10

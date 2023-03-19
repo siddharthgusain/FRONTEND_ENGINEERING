@@ -4,13 +4,13 @@
 -> Async await can be created using Generators
 */
 
-async function asyncAwait() {
-    const resolvedPromise = await fetch('https://jsonplaceholder.typicode.com/todos/1');
-    const data = await resolvedPromise.json();
-    console.log(data);
-}
+// async function asyncAwait() {
+//     const resolvedPromise = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+//     const data = await resolvedPromise.json();
+//     console.log(data);
+// }
 
-asyncAwait();
+// asyncAwait();
 
 
 // custom async await
@@ -18,11 +18,11 @@ asyncAwait();
 function customAsync(customGenerator) {
     let gen = customGenerator(); // gets a generator
     // let promise = gen.next().value -> value is actually a promise returned from fetch call which needs to be resolved;
-    function resolver(value) {
-        const n = gen.next(value);
+    function resolver(param) {
+        const n = gen.next(param); // The value will be assigned as a result of a yield expression.
         console.log(n);
         if (n.done) return;
-        n.value.then(resolver);
+        n.value.then(resolver);// resolver is passed as callback to promise.then();
     };
 
     resolver();
