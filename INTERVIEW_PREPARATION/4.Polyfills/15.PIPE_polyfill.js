@@ -15,9 +15,11 @@ let reverse = (string) => string
 // PIPE without arrow function
 function pipeWithoutArrowFunction(...functions) {
     return function (value) { // value will be "Buckethead"
-        return functions.reduce((currentValue, currentFunction) => { // we are reducing from left-to-right
+        let result = functions.reduce((currentValue, currentFunction) => { // we are reducing from left-to-right
             return currentFunction(currentValue);
         }, value);
+
+        return result;
     }
 }
 

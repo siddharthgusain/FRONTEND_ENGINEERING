@@ -13,9 +13,11 @@ let reverse = (string) => string
 // COMPOSE WITHOUT ARROW FUNCTION SYNTAX
 function composeWithoutArrowFunction(...functions) {
     return function (value) { // value will be "Buckethead"
-        return functions.reduceRight((currentValue, currentFunction) => { // we are reducing from right-to-left
+        let result = functions.reduceRight((currentValue, currentFunction) => { // we are reducing from right-to-left
             return currentFunction(currentValue);
         }, value);
+
+        return result;
     }
 }
 
