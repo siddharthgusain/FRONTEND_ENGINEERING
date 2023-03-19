@@ -29,7 +29,7 @@ the timer created by the call to setTimeout(). This value can be passed
 to clearTimeout() to cancel the timeout.
 */
 
-const debounce = delayedFunction(getData, 300);
+const debounce = delayedFunction(getData, 2000);
 
 inputObject.addEventListener("input", debounce);
 

@@ -5,7 +5,7 @@ to speed up the computation.
 -> It increases space complexity , but decreases time complexity
 */
 
-// We can use it it javscript to memoize some heavy computing function
+// We can use it it javascript to memoize some heavy computing function
 
 /*
 The concept of memoization in JavaScript relies on two concepts:

@@ -32,8 +32,17 @@ let result = pipeWithoutArrowFunction(
 
 console.log(result({ name: "Buckethead" })); // TEKCUB
 
+// Another way of calling
+pipeWithoutArrowFunction(getName,
+    uppercase,
+    get6Characters,
+    reverse
+)({ name: "Buckethead" });
+
+
+
 //// PIPE with arrow function
-pipe = (...functions) => (value) => { // this actually is function currying if you observe carefully
+let pipeWithArrow = (...functions) => (value) => { // this actually is function currying if you observe carefully
     debugger;
     return functions
         .reduce((currentValue, currentFunction) => {
@@ -43,10 +52,7 @@ pipe = (...functions) => (value) => { // this actually is function currying if y
 }
 
 
-
-
-
-let result1 = pipe(
+let result1 = pipeWithArrow(
     getName,
     uppercase,
     get6Characters,

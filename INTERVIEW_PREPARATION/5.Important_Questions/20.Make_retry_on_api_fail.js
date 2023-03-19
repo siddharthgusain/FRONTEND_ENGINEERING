@@ -6,16 +6,18 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
 */
 
 function withRetryHandling(callback, {
-    baseDelay = 400,
+    baseDelay = 2000,
     logger = console,
-    numberOfTries = 3,
+    numberOfTries = 10,
 } = {}) {
 
     return function callbackWithRetryHandling(...params) {
         const retry = async (attempt = 1) => {
 
             try {
-                return await callback(...params);
+                const res = await callback(...params);
+                if (res.status == 404) // is response has status 404 throw an error so that control goes to catch block
+                    throw ("API FAILED WITH STATUS", res.status);
             } catch (error) {
                 if (attempt >= numberOfTries) throw error;
 
@@ -26,8 +28,9 @@ function withRetryHandling(callback, {
                 if (logger) logger.warn('Retry because of', error);
 
                 const promise = new Promise(
-                    resolve =>
+                    (resolve, reject) => {
                         setTimeout(() => resolve(retry(attempt + 1)), delay)
+                    }
                 );
 
                 return promise;
@@ -40,9 +43,14 @@ function withRetryHandling(callback, {
     };
 }
 
-const retry = withRetryHandling(() => {
-    return fetch('https://jsonplaceholder.typicode.com/todos/1')
-});
+const fetchData = () => {
+    return fetch('https://jsonplaceholder.typicode.com/todoss/1')
+}
+
+const retry = withRetryHandling(fetchData);
 
 retry().then(res => res.json()).then((data) => console.log(data));
 
+
+
+// THIS retry is simply polling the server and after some timeout we are calling the api call again thats it

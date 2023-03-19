@@ -10,7 +10,7 @@ causing changes to the source or copy that you don't expect
 //Primitive types are always deep copied
 
 // Lets talk about Objects
-// There is only one way to create deep copy with JSON methods
+// There is two way to create deep copy with JSON methods
 // ---------------Object-----------
 let obj1 = {
     "firstName": "sid"

@@ -59,6 +59,8 @@ Array.prototype.pushWithEvent = function () {
 };
 
 
+// Using our custom functions
+
 const arr = [];
 arr.addListener('add', (items, args) => {
     console.log('items were added', args);

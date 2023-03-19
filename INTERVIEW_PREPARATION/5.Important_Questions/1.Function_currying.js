@@ -21,3 +21,8 @@ multiplyByTwo1(5); // 2 * 5
 
 let multiplyByThree1 = multiply1(3);
 multiplyByTwo(5);// 3 * 5
+
+
+// So basically by currying we take advantage of "function returning function"
+// This can be usefull for creating function like PIPE AND COMPOSE
+// IT is heaviliy used by library like REDUX e.g connect()();

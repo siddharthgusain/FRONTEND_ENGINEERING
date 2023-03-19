@@ -13,7 +13,7 @@ child.addEventListener("click", (e) => callback(e, "child"), true);
 
 
 // Bubbling :- Event propagate from child to parent in DOM
-// Capturing / trickling :- From Parant to child
+// Capturing / trickling :- From Parent to child
 // if third arguement is not provided or false --> Event Bubbling
 // If Third Arg is true --> Event capturing
 // Cycle --> Capturing -----> Bubbling

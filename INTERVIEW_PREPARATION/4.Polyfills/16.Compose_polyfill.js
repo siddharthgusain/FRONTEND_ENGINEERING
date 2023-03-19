@@ -32,7 +32,13 @@ console.log(result({ name: "Buckethead" }));
 
 
 // COMPOSE WITH ARROW FUNCTION SYNTAX
-let result1 = compose(
+let composeWithArrow = (...functions) => (value) => {
+    return functions.reduceRight((currentValue, currentFunction) => { // we are reducing from right-to-left
+        return currentFunction(currentValue);
+    }, value);
+}
+
+let result1 = composeWithArrow(
     reverse,
     get6Characters,
     uppercase,
@@ -43,4 +49,4 @@ console.log(result1);
 
 
 
-// ALL these function are found in libary like LODASH and rxJS
+// ALL these function are found in libary like "LODASH and rxJS"
