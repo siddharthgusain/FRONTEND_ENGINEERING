@@ -40,3 +40,7 @@ let result1 = compose(
 )({ name: 'Buckethead' }) // { name: 'Buckethead' } == x
 
 console.log(result1);
+
+
+
+// ALL these function are found in libary like LODASH and rxJS
