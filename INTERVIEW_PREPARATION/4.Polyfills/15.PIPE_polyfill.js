@@ -2,15 +2,7 @@
 pipeOneLiner = (...fns) => x => fns.reduce((v, f) => f(v), x)
 
 
-pipe = (...functions) => (value) => {
-    debugger;
-    return functions
-        .reduce((currentValue, currentFunction) => {
-            debugger;
-            return currentFunction(currentValue);
-        }, value)
-}
-
+// FUNCTIONS TO BE PIPED 
 let getName = (person) => person.name;
 let uppercase = (string) => string.toUpperCase();
 let get6Characters = (string) => string.substring(0, 6);
@@ -20,11 +12,43 @@ let reverse = (string) => string
     .join('')
 
 
-let result = pipe(
+// PIPE without arrow function
+function pipeWithoutArrowFunction(...functions) {
+    return function (value) { // value will be "Buckethead"
+        return functions.reduce((currentValue, currentFunction) => { // we are reducing from left-to-right
+            return currentFunction(currentValue);
+        }, value);
+    }
+}
+
+let result = pipeWithoutArrowFunction(
+    getName,
+    uppercase,
+    get6Characters,
+    reverse
+);
+
+console.log(result({ name: "Buckethead" })); // TEKCUB
+
+//// PIPE with arrow function
+pipe = (...functions) => (value) => { // this actually is function currying if you observe carefully
+    debugger;
+    return functions
+        .reduce((currentValue, currentFunction) => {
+            debugger;
+            return currentFunction(currentValue);
+        }, value)
+}
+
+
+
+
+
+let result1 = pipe(
     getName,
     uppercase,
     get6Characters,
     reverse
 )({ name: 'Buckethead' }) // { name: 'Buckethead' } == x
 
-console.log(result);
+console.log(result1); //TEKCUB
