@@ -16,3 +16,5 @@
 -> https://www.youtube.com/watch?v=8pDqJVdNa44-> DOCUMENTORY
 
 -> https://dev.to/lexlohr/concepts-behind-modern-frameworks-4m1g --> COncetps behind any framework
+
+-> https://www.youtube.com/watch?v=CGpMlWVcHok

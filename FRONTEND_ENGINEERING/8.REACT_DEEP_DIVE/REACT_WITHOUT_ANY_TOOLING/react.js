@@ -12,7 +12,11 @@
         typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
             typeof define === 'function' && define.amd ? define(['exports'], factory) :
                 (global = global || self, factory(global.React = {}));
-    }(this, (function (exports) {
+    }
+    
+    (
+        this, (
+        function (exports) {
         'use strict';
 
         var ReactVersion = '18.2.0';
@@ -3342,7 +3346,10 @@
         exports.useTransition = useTransition;
         exports.version = ReactVersion;
 
-    })));
+            }
+        )
+    )
+);
 
 
 
