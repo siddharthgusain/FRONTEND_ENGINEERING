@@ -6,7 +6,7 @@ WHY WEB IS CONSIDERED AS UNIVERSAL AND MORE REACHABLE PLATFORM?
 is very less.
 4. Web application is more reachable and can be accessed on any hardware like x86 , arm with single
 code base.
-5. Introduction of Web Assembly , PWA makes web even more powerfull
+5. Introduction of Web Assembly , PWA makes web even more powerful
 6. Any product which wants to reach more users will be made as an Web application.
 7. Browsers have matured and captured almost all type of devices.
 
@@ -25,7 +25,7 @@ different for different kernels and also different GUI TOOLKIT
 2. Second lets talk about Chip architecture (RISC and CISC). Mobile devices Uses ARM(RISC) architecture
 Desktop devices have Chips with x86(CISC) architecture. 
 3. Each operating system is made for different architecture.
-4. Any application running directly on top of operating system is platform dependent.So seperate
+4. Any application running directly on top of operating system is platform dependent.So separate
 code will be written for different operating system.
 
 -> WEB Application on the other hand runs on top of browser , browser are platform dependent but

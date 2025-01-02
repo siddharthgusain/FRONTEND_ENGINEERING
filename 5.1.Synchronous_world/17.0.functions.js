@@ -34,9 +34,9 @@ function
 For example, in such a language, a function can be passed as an argument to other functions, 
 can be returned by another function and can be assigned as a value to a variable.
 
--> WE CAN PASS FUNCTION AS ARGUEMENT , CAN BE RETURNED AS WELL
+-> WE CAN PASS FUNCTION AS ARGUMENT , CAN BE RETURNED AS WELL
 -> NOTE: In programming languages C/C++ we can pass pointer to a function
-    as a arguement and also return it.
+    as a argument and also return it.
 */
 
 

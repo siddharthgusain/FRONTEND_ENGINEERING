@@ -12,7 +12,7 @@ for (var i = 0; i < arr.length; i++) {
 }
 
 var string = "sid,tushar,messi,ronaldo";
-arr = string.split(','); // makes array by spliting from ','
+arr = string.split(','); // makes array by splitting from ','
 console.log(arr);
 
 string = arr.join(','); // array to string , takes arguement
@@ -21,7 +21,7 @@ console.log(string);
 var arr2 = [1, 2, 3, 4];
 var str = arr2.toString(); // array to string , always use comma as default
 
-console.log(str); "1,2,3,4,5"
+console.log(str); // "1,2,3,4,5"
 
 // push , pop to remove and add from end
 var arr3 = [1, 23, 2];

@@ -45,7 +45,7 @@ let newObject = {
         console.log(this.name);
     }
 }
-newObject.arrowFunc(); // Sid --> "this" is undefined
+newObject.arrowFunc(); // '' --> "this" is undefined
 newObject.regularFunc(); // Messi --> "this" is newObject
 
 

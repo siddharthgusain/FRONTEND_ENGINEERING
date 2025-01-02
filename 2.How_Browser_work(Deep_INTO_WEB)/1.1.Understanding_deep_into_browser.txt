@@ -1,12 +1,12 @@
 A little Recap :-
--> We have talked about how data is fetched and what are the physical infrastucture
+-> We have talked about how data is fetched and what are the physical infrastructure
 and protocols that goes behind the scenes of fetching data from server
 
 HOW BROWSER WORKS (BEHIND THE SCENES)?
 
 1. HOW MANY PROCESSES ARE CREATED WHEN WE CLICK THE CHROME SHORTCUT
 2. DETAIL ABOUT THE PROCESSES
-3. HOW MULTIPROCESS ARCHITECTURE WORKS
+3. HOW MULTI-PROCESS ARCHITECTURE WORKS
 4. WHAT ARE THE API EXPOSED BY BROWSER THAT CAN BE USED BY JS PROGRAM
 5. CODE INSIDE BROWSER (AN OVERVIEW)
 
@@ -20,7 +20,7 @@ NOTE ABOUT OS :-
     -> I/O request(Keyboard , Mouse ,Monitor)
     -> Managing RAM and HDD
     -> Managing GPU 
-    -> Interating with Device drivers
+    -> Interacting with Device drivers
     -> Handling interrupts
     -> OS is the only software which directly access hardware.
     -> All other programs uses OS API to access hardware resources.
@@ -39,11 +39,11 @@ NOTE ABOUT OS :-
 
 4. ABOUT CSS
 -> CSS is also a format where developers define what to do 
--> To decrease the developement time Browsers are made they are kind of abstraction layer 
+-> To decrease the development time Browsers are made they are kind of abstraction layer 
    which do the heavy lifting.
 
 5. ABOUT JS
--> JS is also a bunch of intruction that we write in a file of what to do , how to do 
+-> JS is also a bunch of instruction that we write in a file of what to do , how to do 
 is done by browser using OS support .
 
 -> JS Program interacts with Browser core API like Storage using API,in simple terms
@@ -51,8 +51,8 @@ some bunch of functions defined inside browser code and that can be called insid
 
 -> In the we should not forget that everything is a software and gets converted to Process
 
--> Interprocess communication is going on btw process.
+-> Inter-process communication is going on btw process.
 
 5. ABOUT BROWSER
 -> OLD browser were single process ARCHITECTURE
--> Modern Browser have MULTIPROCESS ARCHITECTURE(AlONG WITH "Multithreading")
+-> Modern Browser have MULTI-PROCESS ARCHITECTURE(AlONG WITH "Multithreading")
