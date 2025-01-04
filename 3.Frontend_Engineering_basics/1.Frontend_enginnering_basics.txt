@@ -1,7 +1,7 @@
 -> Every Front-end application has most things common either a mobile app or web app or desktop app
 
--> In Front end Engineering we basicaly take care of 4 things :-
-1. Dividing the whole UI into managable components(Declarative i.e declare the UI using xml , html etc)
+-> In Front end Engineering we basically take care of 4 things :-
+1. Dividing the whole UI into manageable components(Declarative i.e declare the UI using xml , html etc)
 2. Managing lifecycle of components
 3. Managing state of application(Data + Storage and passing data between various UI components and getting data from external processes)
 4. Navigation and Routing between screens

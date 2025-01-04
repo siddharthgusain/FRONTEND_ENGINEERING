@@ -1,7 +1,7 @@
 About PORTS :-
 -> Ports are 16 bit number ranging from (0-65535).
 -> Ports are assigned to process for uniques identification which is helpful for IPC. 
--> Applications like normal text editor dont need port number 
+-> Applications like normal text editor don't need port number 
 -> A port number specifies the process to which incoming data or
  messages arriving on a given "network interface" should be routed.
 -> Some ports are well defined ports like 80,443 etc;
@@ -15,7 +15,7 @@ it is creating.
 -> IP can be (v4) or (v6) version (32 bit or 128 bit)
 -> Socket is just a 48 bit identifier in case of ipV4 used by OS to route the data packets
 to corresponding process.
--> Socket helps in interprocess communication
+-> Socket helps in inter-process communication
 
 Two types of sockets ->
 1. For processes within same computer -> Unix domain sockets

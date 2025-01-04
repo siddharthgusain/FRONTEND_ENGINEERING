@@ -5,6 +5,6 @@ of the renderer process by the "JS ENGINE"(JUST A PIECE OF CODE) SO, javascript 
 the "rendering pipeline" that we have studied in previously.
 -> This will also affect FCP,LCP etc that are web vitals for SEO.
 -> Also if javascript starts executing before the DOM is created in the memory,there is a possibility
-that it will try to acess a DOM node which is not yet created in memory.
+that it will try to access a DOM node which is not yet created in memory.
 -> NOTE:- RENDER BLOCKING RESOURCES ARE CSS, JAVASCRIPT AND ANY OTHER IMPORTS IN HTML LIKE 
 FONT IMPORTS

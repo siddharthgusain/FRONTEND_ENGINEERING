@@ -1,7 +1,7 @@
 WEB 1.0
 -> It was mainly for text based documents only.
 -> No css support , only basic html.
--> Mainly used by major research institute , defence forces
+-> Mainly used by major research institute , defense forces
 
 WEB 2.0
 -> It was for visual content like pictures and videos and more focus on User interaction and experience
@@ -9,8 +9,8 @@ WEB 2.0
 -> Give rise to video sharing , image sharing (Instagram , gmail,facebook)
 
 WEB 3.0(CURRENT)
--> More focus on security and decentralisation
--> Concept of decentralisation
+-> More focus on security and de-centralization
+-> Concept of de-centralization
 -> Use of blockchain Concept
 -> 3D graphics
 -> AR/VR on Browsers.
